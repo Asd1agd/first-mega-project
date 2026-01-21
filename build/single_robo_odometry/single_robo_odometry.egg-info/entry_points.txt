@@ -1,0 +1,6 @@
+[console_scripts]
+odom_tf_pub = single_robo_odometry.odom_tf_pub:main
+odom_tf_pub_w_error = single_robo_odometry.odom_tf_pub_w_error:main
+odometry_calculation = single_robo_odometry.odometry_calculation:main
+odometry_error = single_robo_odometry.odometry_error:main
+
