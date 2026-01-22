@@ -60,9 +60,22 @@ def generate_launch_description():
         package="ros_gz_sim",
         executable="create",
         output="screen",
-        arguments=["-topic", "robot_description",
-                   "-name", "bumperbot"],
+        arguments=[
+            "-topic", "robot_description",
+            "-name", "my_robot",
+
+            # Position (meters)
+            "-x", "0.0",
+            "-y", "0.0",
+            "-z", "0.2",
+
+            # Orientation (radians)
+            "-R", "0.0",   # Roll
+            "-P", "0.0",   # Pitch
+            "-Y", "0.0"   # Yaw (90°)
+        ],
     )
+
 
     bridge_config = os.path.join(bumperbot_description, "config", "GZ_bridge.yaml")
 
