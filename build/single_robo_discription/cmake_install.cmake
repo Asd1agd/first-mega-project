@@ -48,6 +48,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/home/asd/temp_git_repo/first-mega-project/src/single_robo_discription/launch"
     "/home/asd/temp_git_repo/first-mega-project/src/single_robo_discription/world"
     "/home/asd/temp_git_repo/first-mega-project/src/single_robo_discription/config"
+    "/home/asd/temp_git_repo/first-mega-project/src/single_robo_discription/maps"
     )
 endif()
 

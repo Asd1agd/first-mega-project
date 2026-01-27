@@ -13,8 +13,8 @@ class WheelOdometryNode(Node):
         # Parameters (adjust these for your robot)
         self.declare_parameter('wheel_radius', 0.1)  # in meters
         self.declare_parameter('wheel_separation', 0.425)  # in meters
-        self.declare_parameter('odom_frame_id', 'odom_calculated')
-        self.declare_parameter('base_frame_id', 'base_footprint')
+        self.declare_parameter('odom_frame_id', 'odom')
+        self.declare_parameter('base_frame_id', 'base_footprint_calculated')
         self.declare_parameter('publish_rate', 50.0)  # Hz
         
         # Get parameters

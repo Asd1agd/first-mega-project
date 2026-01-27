@@ -10,7 +10,12 @@
 /home/asd/temp_git_repo/first-mega-project/install/single_robo_discription/share/single_robo_discription//world/ware_house_edit.sdf
 /home/asd/temp_git_repo/first-mega-project/install/single_robo_discription/share/single_robo_discription//config/GZ_bridge.yaml
 /home/asd/temp_git_repo/first-mega-project/install/single_robo_discription/share/single_robo_discription//config/rviz_config.rviz
+/home/asd/temp_git_repo/first-mega-project/install/single_robo_discription/share/single_robo_discription//config/ekf.yaml
 /home/asd/temp_git_repo/first-mega-project/install/single_robo_discription/share/single_robo_discription//config/ps4_config.yaml
+/home/asd/temp_git_repo/first-mega-project/install/single_robo_discription/share/single_robo_discription//maps/small_warehouse/my_map.pgm
+/home/asd/temp_git_repo/first-mega-project/install/single_robo_discription/share/single_robo_discription//maps/small_warehouse/my_map.yaml
+/home/asd/temp_git_repo/first-mega-project/install/single_robo_discription/share/single_robo_discription//maps/small_warehouse2/my_map.pgm
+/home/asd/temp_git_repo/first-mega-project/install/single_robo_discription/share/single_robo_discription//maps/small_warehouse2/my_map.yaml
 /home/asd/temp_git_repo/first-mega-project/install/single_robo_discription/share/ament_index/resource_index/package_run_dependencies/single_robo_discription
 /home/asd/temp_git_repo/first-mega-project/install/single_robo_discription/share/ament_index/resource_index/parent_prefix_path/single_robo_discription
 /home/asd/temp_git_repo/first-mega-project/install/single_robo_discription/share/single_robo_discription/environment/ament_prefix_path.sh

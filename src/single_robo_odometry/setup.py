@@ -24,6 +24,9 @@ setup(
             'odom_tf_pub = single_robo_odometry.odom_tf_pub:main',
             'odometry_error = single_robo_odometry.odometry_error:main',
             'odom_tf_pub_w_error = single_robo_odometry.odom_tf_pub_w_error:main',
+            'odom_tf_pub_inv = single_robo_odometry.odom_tf_pub_inv:main',
+            'odom_tf_pub_w_error_inv = single_robo_odometry.odom_tf_pub_w_error_inv:main',
+            'imu_republisher = single_robo_odometry.imu_republisher:main',
         ],
     },
 )

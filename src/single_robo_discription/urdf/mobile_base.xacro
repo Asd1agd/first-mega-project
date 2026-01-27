@@ -7,7 +7,6 @@
     <xacro:property name="wheel_radius" value="0.1" />
     <xacro:property name="wheel_length" value="0.05" />
 
-
     <!-- Base Footprint -->
     <link name="base_footprint" />
 
@@ -123,17 +122,49 @@
                              o_xyz="0 0 0" o_rpy="0 0 0" />
     </link>
     
-     <!-- Front direction Link rod -->
+     <!-- Front direction Link rod
     <link name="front_direction_link_rod">
         <visual>
             <geometry>
-                <!-- <sphere radius="${wheel_radius / 2.0}" /> -->
-                <cylinder radius="${wheel_radius / 2.0}" length="${0.005}" />
+                <cylinder radius="${wheel_radius / 2.0}" length="${0.05}" />
             </geometry>
             <origin xyz="0 0 0" rpy="0 0 1.5708" />
             <material name="grey" />
         </visual>
     </link>
+
+     Back direction Link rod
+    <link name="back_direction_link_rod">
+        <visual>
+            <geometry>
+                <cylinder radius="${wheel_radius / 2.0}" length="${0.05}" />
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 1.5708" />
+            <material name="grey" />
+        </visual>
+    </link>
+
+    Left direction Link rod
+    <link name="left_direction_link_rod">
+        <visual>
+            <geometry>
+                <cylinder radius="${wheel_radius / 2.0}" length="${0.05}" />
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 1.5708" />
+            <material name="grey" />
+        </visual>
+    </link>
+
+    Right direction Link rod
+    <link name="right_direction_link_rod">
+        <visual>
+            <geometry>
+                <cylinder radius="${wheel_radius / 2.0}" length="${0.05}" />
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 1.5708" />
+            <material name="grey" />
+        </visual>
+    </link> -->
 
     <!-- Back Caster Wheel Link -->
     <link name="caster_wheel_link2">
@@ -212,13 +243,35 @@
         <child link="caster_wheel_link_rod" />
         <origin xyz="${base_length / 2.8} 0 -${wheel_radius / 4.0}" rpy="0 0 0" />
     </joint>
-    
-     <!-- Front direction Joint rod-->
+
+
+     <!-- Front direction Joint rod
     <joint name="front_direction_link_rod_joint" type="fixed">
         <parent link="base_link" />
         <child link="front_direction_link_rod" />
         <origin xyz="${base_length / 2.8} 0 ${base_height}" rpy="0 0 0" />
     </joint>
+
+     Back direction Joint rod
+    <joint name="back_direction_link_rod_joint" type="fixed">
+        <parent link="base_link" />
+        <child link="back_direction_link_rod" />
+        <origin xyz="-${base_length / 2.8} 0 ${base_height}" rpy="0 0 0" />
+    </joint>
+
+    left direction Joint rod
+    <joint name="left_direction_link_rod_joint" type="fixed">
+        <parent link="base_link" />
+        <child link="left_direction_link_rod" />
+        <origin xyz="0 -${base_width / 2.5} ${base_height}" rpy="0 0 0" />
+    </joint>
+
+     right direction Joint rod
+    <joint name="right_direction_link_rod_joint" type="fixed">
+        <parent link="base_link" />
+        <child link="right_direction_link_rod" />
+        <origin xyz="0 ${base_width / 2.5} ${base_height}" rpy="0 0 0" />
+    </joint> -->
 
 
     <!-- Back Caster Wheel Joint -->

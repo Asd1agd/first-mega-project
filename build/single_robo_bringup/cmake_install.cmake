@@ -43,7 +43,10 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/single_robo_bringup/" TYPE DIRECTORY FILES "/home/asd/temp_git_repo/first-mega-project/src/single_robo_bringup/launch")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/single_robo_bringup/" TYPE DIRECTORY FILES
+    "/home/asd/temp_git_repo/first-mega-project/src/single_robo_bringup/launch"
+    "/home/asd/temp_git_repo/first-mega-project/src/single_robo_bringup/config"
+    )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
