@@ -6,12 +6,13 @@ from launch import LaunchDescription
 from launch.actions import DeclareLaunchArgument
 from launch.substitutions import LaunchConfiguration
 from launch_ros.actions import Node
+from launch.actions import TimerAction
 
 
 def generate_launch_description():
 
     use_sim_time = LaunchConfiguration("use_sim_time")
-    lifecycle_nodes = ["controller_server", "planner_server", "smoother_server"]
+    lifecycle_nodes = ["controller_server", "planner_server", "smoother_server", "bt_navigator", "behavior_server"]
     single_robo_bringup_pkg = get_package_share_directory("single_robo_bringup")
 
     use_sim_time_arg = DeclareLaunchArgument(
@@ -74,6 +75,20 @@ def generate_launch_description():
         ],
     )
 
+    nav2_behavior_server = Node(
+        package="nav2_behaviors",
+        executable="behavior_server",
+        name="behavior_server",
+        output="screen",
+        parameters=[
+            os.path.join(
+                single_robo_bringup_pkg,
+                "config",
+                "behavior_server.yaml"),
+            {"use_sim_time": use_sim_time}
+        ],
+    )
+
     nav2_lifecycle_manager = Node(
         package="nav2_lifecycle_manager",
         executable="lifecycle_manager",
@@ -86,11 +101,19 @@ def generate_launch_description():
         ],
     )
 
-    return LaunchDescription([
-        use_sim_time_arg,
-        nav2_controller_server,
+    ld = LaunchDescription()
+    ld.add_action(use_sim_time_arg)
+    ld.add_action(TimerAction(
+        period=4.0,
+        actions=[nav2_controller_server,
         nav2_planner_server,
         nav2_smoother_server,
         nav2_bt_navigator,
-        nav2_lifecycle_manager,
-    ])
+        nav2_behavior_server]
+    ))
+    ld.add_action(TimerAction(
+        period=6.0,
+        actions=[nav2_lifecycle_manager]
+    ))
+        
+    return ld

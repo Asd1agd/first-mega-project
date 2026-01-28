@@ -10,8 +10,10 @@
 /home/asd/temp_git_repo/first-mega-project/install/single_robo_bringup/share/single_robo_bringup//config/bt_navigator.yaml
 /home/asd/temp_git_repo/first-mega-project/install/single_robo_bringup/share/single_robo_bringup//config/smoother_server.yaml
 /home/asd/temp_git_repo/first-mega-project/install/single_robo_bringup/share/single_robo_bringup//config/basic_bt_tree.xml
+/home/asd/temp_git_repo/first-mega-project/install/single_robo_bringup/share/single_robo_bringup//config/behavior_server.yaml
 /home/asd/temp_git_repo/first-mega-project/install/single_robo_bringup/share/single_robo_bringup//config/costmap.yaml
 /home/asd/temp_git_repo/first-mega-project/install/single_robo_bringup/share/single_robo_bringup//config/amcl.yaml
+/home/asd/temp_git_repo/first-mega-project/install/single_robo_bringup/share/single_robo_bringup//config/adwance_bt_tree.xml
 /home/asd/temp_git_repo/first-mega-project/install/single_robo_bringup/share/ament_index/resource_index/package_run_dependencies/single_robo_bringup
 /home/asd/temp_git_repo/first-mega-project/install/single_robo_bringup/share/ament_index/resource_index/parent_prefix_path/single_robo_bringup
 /home/asd/temp_git_repo/first-mega-project/install/single_robo_bringup/share/single_robo_bringup/environment/ament_prefix_path.sh

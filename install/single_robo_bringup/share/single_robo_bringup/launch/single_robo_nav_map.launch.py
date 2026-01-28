@@ -118,7 +118,7 @@ def generate_launch_description():
         output="screen",
         parameters=[
             {
-                "node_names": ["map_server", "amcl", "costmap/costmap"],
+                "node_names": ["map_server", "amcl"], #"costmap/costmap"],
                 "autostart": True,
                 "use_sim_time": use_sim_time
             }
@@ -147,13 +147,6 @@ def generate_launch_description():
     ld.add_action(use_sim_time_arg)
     ld.add_action(amcl_config_arg)
     
-    # Add optional RViz argument
-    ld.add_action(DeclareLaunchArgument(
-        'use_rviz',
-        default_value='true',
-        description='Whether to launch RViz2'
-    ))
-    
     # Add nodes in proper order
     # 1. Map server
     ld.add_action(map_server_node)
@@ -169,7 +162,7 @@ def generate_launch_description():
     #     actions=[costmap_node]
     # ))
 
-    ld.add_action(costmap_node)
+    # ld.add_action(costmap_node)
 
     # 3. Lifecycle manager (start after both nodes)
     ld.add_action(TimerAction(
@@ -177,10 +170,10 @@ def generate_launch_description():
         actions=[lifecycle_manager]
     ))
     
-    # 4. RViz2 (start after everything is ready)
-    ld.add_action(TimerAction(
-        period=10.0,
-        actions=[rviz2_node]
-    ))
+    # # 4. RViz2 (start after everything is ready)
+    # ld.add_action(TimerAction(
+    #     period=16.0,
+    #     actions=[rviz2_node]
+    # ))
     
     return ld
