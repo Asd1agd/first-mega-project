@@ -1,0 +1,263 @@
+[0.476s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.476s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x71a016d7e890>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x71a016d7e110>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x71a016d7e110>>, mixin_verb=('build',))
+[1.400s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.400s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.400s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.401s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.401s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.401s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.401s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/asd/temp_git_repo/first-mega-project'
+[1.401s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.402s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.402s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.402s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.402s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.402s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.402s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.402s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.403s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.494s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.495s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.496s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.497s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.498s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.499s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.500s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.501s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.502s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.502s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.502s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.503s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.504s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.504s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.504s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.504s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.504s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.505s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.505s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.505s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.505s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.505s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.505s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.506s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.506s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.506s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.506s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.506s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/single_robo_bringup) by extensions ['ignore', 'ignore_ament_install']
+[1.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/single_robo_bringup) by extension 'ignore'
+[1.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/single_robo_bringup) by extension 'ignore_ament_install'
+[1.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/single_robo_bringup) by extensions ['colcon_pkg']
+[1.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/single_robo_bringup) by extension 'colcon_pkg'
+[1.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/single_robo_bringup) by extensions ['colcon_meta']
+[1.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/single_robo_bringup) by extension 'colcon_meta'
+[1.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/single_robo_bringup) by extensions ['ros']
+[1.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/single_robo_bringup) by extension 'ros'
+[1.518s] DEBUG:colcon.colcon_core.package_identification:Package 'src/single_robo_bringup' with type 'ros.ament_cmake' and name 'single_robo_bringup'
+[1.518s] Level 1:colcon.colcon_core.package_identification:_identify(src/single_robo_discription) by extensions ['ignore', 'ignore_ament_install']
+[1.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/single_robo_discription) by extension 'ignore'
+[1.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/single_robo_discription) by extension 'ignore_ament_install'
+[1.522s] Level 1:colcon.colcon_core.package_identification:_identify(src/single_robo_discription) by extensions ['colcon_pkg']
+[1.522s] Level 1:colcon.colcon_core.package_identification:_identify(src/single_robo_discription) by extension 'colcon_pkg'
+[1.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/single_robo_discription) by extensions ['colcon_meta']
+[1.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/single_robo_discription) by extension 'colcon_meta'
+[1.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/single_robo_discription) by extensions ['ros']
+[1.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/single_robo_discription) by extension 'ros'
+[1.528s] DEBUG:colcon.colcon_core.package_identification:Package 'src/single_robo_discription' with type 'ros.ament_cmake' and name 'single_robo_discription'
+[1.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/single_robo_odometry) by extensions ['ignore', 'ignore_ament_install']
+[1.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/single_robo_odometry) by extension 'ignore'
+[1.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/single_robo_odometry) by extension 'ignore_ament_install'
+[1.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/single_robo_odometry) by extensions ['colcon_pkg']
+[1.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/single_robo_odometry) by extension 'colcon_pkg'
+[1.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/single_robo_odometry) by extensions ['colcon_meta']
+[1.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/single_robo_odometry) by extension 'colcon_meta'
+[1.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/single_robo_odometry) by extensions ['ros']
+[1.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/single_robo_odometry) by extension 'ros'
+[1.536s] DEBUG:colcon.colcon_core.package_identification:Package 'src/single_robo_odometry' with type 'ros.ament_python' and name 'single_robo_odometry'
+[1.536s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.537s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.537s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.537s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.537s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.653s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.653s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.678s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/asd/temp_git_repo/first-mega-project/install
+[1.680s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/asd/temp_git_repo/Eric_ws/assignment_ws/install
+[1.681s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/asd/ros2_ws2/install
+[1.683s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/asd/ros2_ws/install
+[1.687s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 9 installed packages in /home/asd/ros2_ws_goat2/install
+[1.690s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/asd/microros_ws/install
+[1.691s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/asd/ros2_ws4/install
+[1.696s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 16 installed packages in /home/asd/ros2_ws_hardware_int/install
+[1.701s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/asd/ros2_ws9/install
+[1.705s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/asd/ros2_ws7/install
+[1.709s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/asd/ros2_ws_hardware_int2/install
+[1.711s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/asd/ros2_ws_glim/install
+[1.713s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/asd/ros2_ws_to_build/install
+[1.722s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 512 installed packages in /opt/ros/humble
+[1.741s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.085s] Level 5:colcon.colcon_core.verb:set package 'single_robo_bringup' build argument 'cmake_args' from command line to 'None'
+[2.085s] Level 5:colcon.colcon_core.verb:set package 'single_robo_bringup' build argument 'cmake_target' from command line to 'None'
+[2.085s] Level 5:colcon.colcon_core.verb:set package 'single_robo_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.085s] Level 5:colcon.colcon_core.verb:set package 'single_robo_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[2.085s] Level 5:colcon.colcon_core.verb:set package 'single_robo_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[2.085s] Level 5:colcon.colcon_core.verb:set package 'single_robo_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[2.085s] Level 5:colcon.colcon_core.verb:set package 'single_robo_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[2.085s] Level 5:colcon.colcon_core.verb:set package 'single_robo_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[2.085s] Level 5:colcon.colcon_core.verb:set package 'single_robo_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.085s] DEBUG:colcon.colcon_core.verb:Building package 'single_robo_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/asd/temp_git_repo/first-mega-project/build/single_robo_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/asd/temp_git_repo/first-mega-project/install/single_robo_bringup', 'merge_install': False, 'path': '/home/asd/temp_git_repo/first-mega-project/src/single_robo_bringup', 'symlink_install': False, 'test_result_base': None}
+[2.088s] Level 5:colcon.colcon_core.verb:set package 'single_robo_discription' build argument 'cmake_args' from command line to 'None'
+[2.088s] Level 5:colcon.colcon_core.verb:set package 'single_robo_discription' build argument 'cmake_target' from command line to 'None'
+[2.088s] Level 5:colcon.colcon_core.verb:set package 'single_robo_discription' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.088s] Level 5:colcon.colcon_core.verb:set package 'single_robo_discription' build argument 'cmake_clean_cache' from command line to 'False'
+[2.088s] Level 5:colcon.colcon_core.verb:set package 'single_robo_discription' build argument 'cmake_clean_first' from command line to 'False'
+[2.088s] Level 5:colcon.colcon_core.verb:set package 'single_robo_discription' build argument 'cmake_force_configure' from command line to 'False'
+[2.088s] Level 5:colcon.colcon_core.verb:set package 'single_robo_discription' build argument 'ament_cmake_args' from command line to 'None'
+[2.088s] Level 5:colcon.colcon_core.verb:set package 'single_robo_discription' build argument 'catkin_cmake_args' from command line to 'None'
+[2.088s] Level 5:colcon.colcon_core.verb:set package 'single_robo_discription' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.089s] DEBUG:colcon.colcon_core.verb:Building package 'single_robo_discription' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/asd/temp_git_repo/first-mega-project/build/single_robo_discription', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/asd/temp_git_repo/first-mega-project/install/single_robo_discription', 'merge_install': False, 'path': '/home/asd/temp_git_repo/first-mega-project/src/single_robo_discription', 'symlink_install': False, 'test_result_base': None}
+[2.090s] Level 5:colcon.colcon_core.verb:set package 'single_robo_odometry' build argument 'cmake_args' from command line to 'None'
+[2.090s] Level 5:colcon.colcon_core.verb:set package 'single_robo_odometry' build argument 'cmake_target' from command line to 'None'
+[2.090s] Level 5:colcon.colcon_core.verb:set package 'single_robo_odometry' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.090s] Level 5:colcon.colcon_core.verb:set package 'single_robo_odometry' build argument 'cmake_clean_cache' from command line to 'False'
+[2.090s] Level 5:colcon.colcon_core.verb:set package 'single_robo_odometry' build argument 'cmake_clean_first' from command line to 'False'
+[2.090s] Level 5:colcon.colcon_core.verb:set package 'single_robo_odometry' build argument 'cmake_force_configure' from command line to 'False'
+[2.090s] Level 5:colcon.colcon_core.verb:set package 'single_robo_odometry' build argument 'ament_cmake_args' from command line to 'None'
+[2.090s] Level 5:colcon.colcon_core.verb:set package 'single_robo_odometry' build argument 'catkin_cmake_args' from command line to 'None'
+[2.090s] Level 5:colcon.colcon_core.verb:set package 'single_robo_odometry' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.091s] DEBUG:colcon.colcon_core.verb:Building package 'single_robo_odometry' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/asd/temp_git_repo/first-mega-project/build/single_robo_odometry', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/asd/temp_git_repo/first-mega-project/install/single_robo_odometry', 'merge_install': False, 'path': '/home/asd/temp_git_repo/first-mega-project/src/single_robo_odometry', 'symlink_install': False, 'test_result_base': None}
+[2.091s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.094s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.096s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/asd/temp_git_repo/first-mega-project/src/single_robo_bringup' with build type 'ament_cmake'
+[2.097s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/asd/temp_git_repo/first-mega-project/src/single_robo_bringup'
+[2.113s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.114s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.114s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.166s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/asd/temp_git_repo/first-mega-project/src/single_robo_discription' with build type 'ament_cmake'
+[2.166s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/asd/temp_git_repo/first-mega-project/src/single_robo_discription'
+[2.168s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.168s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.233s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/asd/temp_git_repo/first-mega-project/src/single_robo_odometry' with build type 'ament_python'
+[2.234s] Level 1:colcon.colcon_core.shell:create_environment_hook('single_robo_odometry', 'ament_prefix_path')
+[2.238s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asd/temp_git_repo/first-mega-project/install/single_robo_odometry/share/single_robo_odometry/hook/ament_prefix_path.ps1'
+[2.242s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asd/temp_git_repo/first-mega-project/install/single_robo_odometry/share/single_robo_odometry/hook/ament_prefix_path.dsv'
+[2.247s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asd/temp_git_repo/first-mega-project/install/single_robo_odometry/share/single_robo_odometry/hook/ament_prefix_path.sh'
+[2.250s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.250s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.318s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/asd/temp_git_repo/first-mega-project/build/single_robo_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asd/temp_git_repo/first-mega-project/install/single_robo_odometry:/home/asd/ros2_ws_goat2/install/multi_robo_simulator:/home/asd/ros2_ws_goat2/install/swarm_interfaces:/home/asd/ros2_ws_goat2/install/my_robot_description2:/home/asd/ros2_ws_goat2/install/my_robot_bringup2:/home/asd/ros2_ws_goat2/install/goat_robo_discription:/home/asd/ros2_ws_goat2/install/micro_ros_server:/home/asd/ros2_ws_goat2/install/micro_ros_custom_interfaces:/home/asd/ros2_ws_goat2/install/Qr_action:/home/asd/ros2_ws4/install/esp_wifi:/home/asd/ros2_ws4/install/maping_odom:/home/asd/ros2_ws9/install/turtlebot3_simulations:/home/asd/ros2_ws9/install/turtlebot3_gazebo_goat:/home/asd/ros2_ws9/install/turtlebot3_fake_node:/home/asd/ros2_ws9/install/testbed_gazebo_goat:/home/asd/ros2_ws9/install/testbed_description_goat:/home/asd/ros2_ws9/install/my_goat_pkg:/home/asd/ros2_ws9/install/goat_interfaces:/home/asd/ros2_ws9/install/goat_gazebo:/home/asd/ros2_ws7/install/my_py_pkg_anscer:/home/asd/ros2_ws/install/turtlesim_catch_them_all:/home/asd/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/asd/temp_git_repo/first-mega-project/build/single_robo_bringup -- -j8 -l8
+[2.343s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/asd/temp_git_repo/first-mega-project/build/single_robo_discription': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asd/temp_git_repo/first-mega-project/install/single_robo_odometry:/home/asd/ros2_ws_goat2/install/multi_robo_simulator:/home/asd/ros2_ws_goat2/install/swarm_interfaces:/home/asd/ros2_ws_goat2/install/my_robot_description2:/home/asd/ros2_ws_goat2/install/my_robot_bringup2:/home/asd/ros2_ws_goat2/install/goat_robo_discription:/home/asd/ros2_ws_goat2/install/micro_ros_server:/home/asd/ros2_ws_goat2/install/micro_ros_custom_interfaces:/home/asd/ros2_ws_goat2/install/Qr_action:/home/asd/ros2_ws4/install/esp_wifi:/home/asd/ros2_ws4/install/maping_odom:/home/asd/ros2_ws9/install/turtlebot3_simulations:/home/asd/ros2_ws9/install/turtlebot3_gazebo_goat:/home/asd/ros2_ws9/install/turtlebot3_fake_node:/home/asd/ros2_ws9/install/testbed_gazebo_goat:/home/asd/ros2_ws9/install/testbed_description_goat:/home/asd/ros2_ws9/install/my_goat_pkg:/home/asd/ros2_ws9/install/goat_interfaces:/home/asd/ros2_ws9/install/goat_gazebo:/home/asd/ros2_ws7/install/my_py_pkg_anscer:/home/asd/ros2_ws/install/turtlesim_catch_them_all:/home/asd/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/asd/temp_git_repo/first-mega-project/build/single_robo_discription -- -j8 -l8
+[3.643s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/asd/temp_git_repo/first-mega-project/src/single_robo_odometry'
+[3.645s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.645s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.699s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/asd/temp_git_repo/first-mega-project/build/single_robo_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asd/temp_git_repo/first-mega-project/install/single_robo_odometry:/home/asd/ros2_ws_goat2/install/multi_robo_simulator:/home/asd/ros2_ws_goat2/install/swarm_interfaces:/home/asd/ros2_ws_goat2/install/my_robot_description2:/home/asd/ros2_ws_goat2/install/my_robot_bringup2:/home/asd/ros2_ws_goat2/install/goat_robo_discription:/home/asd/ros2_ws_goat2/install/micro_ros_server:/home/asd/ros2_ws_goat2/install/micro_ros_custom_interfaces:/home/asd/ros2_ws_goat2/install/Qr_action:/home/asd/ros2_ws4/install/esp_wifi:/home/asd/ros2_ws4/install/maping_odom:/home/asd/ros2_ws9/install/turtlebot3_simulations:/home/asd/ros2_ws9/install/turtlebot3_gazebo_goat:/home/asd/ros2_ws9/install/turtlebot3_fake_node:/home/asd/ros2_ws9/install/testbed_gazebo_goat:/home/asd/ros2_ws9/install/testbed_description_goat:/home/asd/ros2_ws9/install/my_goat_pkg:/home/asd/ros2_ws9/install/goat_interfaces:/home/asd/ros2_ws9/install/goat_gazebo:/home/asd/ros2_ws7/install/my_py_pkg_anscer:/home/asd/ros2_ws/install/turtlesim_catch_them_all:/home/asd/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/asd/temp_git_repo/first-mega-project/build/single_robo_bringup -- -j8 -l8
+[3.742s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/asd/temp_git_repo/first-mega-project/build/single_robo_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asd/temp_git_repo/first-mega-project/install/single_robo_odometry:/home/asd/ros2_ws_goat2/install/multi_robo_simulator:/home/asd/ros2_ws_goat2/install/swarm_interfaces:/home/asd/ros2_ws_goat2/install/my_robot_description2:/home/asd/ros2_ws_goat2/install/my_robot_bringup2:/home/asd/ros2_ws_goat2/install/goat_robo_discription:/home/asd/ros2_ws_goat2/install/micro_ros_server:/home/asd/ros2_ws_goat2/install/micro_ros_custom_interfaces:/home/asd/ros2_ws_goat2/install/Qr_action:/home/asd/ros2_ws4/install/esp_wifi:/home/asd/ros2_ws4/install/maping_odom:/home/asd/ros2_ws9/install/turtlebot3_simulations:/home/asd/ros2_ws9/install/turtlebot3_gazebo_goat:/home/asd/ros2_ws9/install/turtlebot3_fake_node:/home/asd/ros2_ws9/install/testbed_gazebo_goat:/home/asd/ros2_ws9/install/testbed_description_goat:/home/asd/ros2_ws9/install/my_goat_pkg:/home/asd/ros2_ws9/install/goat_interfaces:/home/asd/ros2_ws9/install/goat_gazebo:/home/asd/ros2_ws7/install/my_py_pkg_anscer:/home/asd/ros2_ws/install/turtlesim_catch_them_all:/home/asd/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/asd/temp_git_repo/first-mega-project/build/single_robo_bringup
+[3.749s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/asd/temp_git_repo/first-mega-project/build/single_robo_discription' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asd/temp_git_repo/first-mega-project/install/single_robo_odometry:/home/asd/ros2_ws_goat2/install/multi_robo_simulator:/home/asd/ros2_ws_goat2/install/swarm_interfaces:/home/asd/ros2_ws_goat2/install/my_robot_description2:/home/asd/ros2_ws_goat2/install/my_robot_bringup2:/home/asd/ros2_ws_goat2/install/goat_robo_discription:/home/asd/ros2_ws_goat2/install/micro_ros_server:/home/asd/ros2_ws_goat2/install/micro_ros_custom_interfaces:/home/asd/ros2_ws_goat2/install/Qr_action:/home/asd/ros2_ws4/install/esp_wifi:/home/asd/ros2_ws4/install/maping_odom:/home/asd/ros2_ws9/install/turtlebot3_simulations:/home/asd/ros2_ws9/install/turtlebot3_gazebo_goat:/home/asd/ros2_ws9/install/turtlebot3_fake_node:/home/asd/ros2_ws9/install/testbed_gazebo_goat:/home/asd/ros2_ws9/install/testbed_description_goat:/home/asd/ros2_ws9/install/my_goat_pkg:/home/asd/ros2_ws9/install/goat_interfaces:/home/asd/ros2_ws9/install/goat_gazebo:/home/asd/ros2_ws7/install/my_py_pkg_anscer:/home/asd/ros2_ws/install/turtlesim_catch_them_all:/home/asd/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/asd/temp_git_repo/first-mega-project/build/single_robo_discription -- -j8 -l8
+[3.757s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/asd/temp_git_repo/first-mega-project/build/single_robo_discription': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asd/temp_git_repo/first-mega-project/install/single_robo_odometry:/home/asd/ros2_ws_goat2/install/multi_robo_simulator:/home/asd/ros2_ws_goat2/install/swarm_interfaces:/home/asd/ros2_ws_goat2/install/my_robot_description2:/home/asd/ros2_ws_goat2/install/my_robot_bringup2:/home/asd/ros2_ws_goat2/install/goat_robo_discription:/home/asd/ros2_ws_goat2/install/micro_ros_server:/home/asd/ros2_ws_goat2/install/micro_ros_custom_interfaces:/home/asd/ros2_ws_goat2/install/Qr_action:/home/asd/ros2_ws4/install/esp_wifi:/home/asd/ros2_ws4/install/maping_odom:/home/asd/ros2_ws9/install/turtlebot3_simulations:/home/asd/ros2_ws9/install/turtlebot3_gazebo_goat:/home/asd/ros2_ws9/install/turtlebot3_fake_node:/home/asd/ros2_ws9/install/testbed_gazebo_goat:/home/asd/ros2_ws9/install/testbed_description_goat:/home/asd/ros2_ws9/install/my_goat_pkg:/home/asd/ros2_ws9/install/goat_interfaces:/home/asd/ros2_ws9/install/goat_gazebo:/home/asd/ros2_ws7/install/my_py_pkg_anscer:/home/asd/ros2_ws/install/turtlesim_catch_them_all:/home/asd/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/asd/temp_git_repo/first-mega-project/build/single_robo_discription
+[3.790s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(single_robo_bringup)
+[3.814s] Level 1:colcon.colcon_core.environment:checking '/home/asd/temp_git_repo/first-mega-project/install/single_robo_bringup' for CMake module files
+[3.818s] Level 1:colcon.colcon_core.environment:checking '/home/asd/temp_git_repo/first-mega-project/install/single_robo_bringup' for CMake config files
+[3.820s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/asd/temp_git_repo/first-mega-project/build/single_robo_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asd/temp_git_repo/first-mega-project/install/single_robo_odometry:/home/asd/ros2_ws_goat2/install/multi_robo_simulator:/home/asd/ros2_ws_goat2/install/swarm_interfaces:/home/asd/ros2_ws_goat2/install/my_robot_description2:/home/asd/ros2_ws_goat2/install/my_robot_bringup2:/home/asd/ros2_ws_goat2/install/goat_robo_discription:/home/asd/ros2_ws_goat2/install/micro_ros_server:/home/asd/ros2_ws_goat2/install/micro_ros_custom_interfaces:/home/asd/ros2_ws_goat2/install/Qr_action:/home/asd/ros2_ws4/install/esp_wifi:/home/asd/ros2_ws4/install/maping_odom:/home/asd/ros2_ws9/install/turtlebot3_simulations:/home/asd/ros2_ws9/install/turtlebot3_gazebo_goat:/home/asd/ros2_ws9/install/turtlebot3_fake_node:/home/asd/ros2_ws9/install/testbed_gazebo_goat:/home/asd/ros2_ws9/install/testbed_description_goat:/home/asd/ros2_ws9/install/my_goat_pkg:/home/asd/ros2_ws9/install/goat_interfaces:/home/asd/ros2_ws9/install/goat_gazebo:/home/asd/ros2_ws7/install/my_py_pkg_anscer:/home/asd/ros2_ws/install/turtlesim_catch_them_all:/home/asd/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/asd/temp_git_repo/first-mega-project/build/single_robo_bringup
+[3.822s] Level 1:colcon.colcon_core.shell:create_environment_hook('single_robo_bringup', 'cmake_prefix_path')
+[3.823s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asd/temp_git_repo/first-mega-project/install/single_robo_bringup/share/single_robo_bringup/hook/cmake_prefix_path.ps1'
+[3.824s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asd/temp_git_repo/first-mega-project/install/single_robo_bringup/share/single_robo_bringup/hook/cmake_prefix_path.dsv'
+[3.825s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asd/temp_git_repo/first-mega-project/install/single_robo_bringup/share/single_robo_bringup/hook/cmake_prefix_path.sh'
+[3.826s] Level 1:colcon.colcon_core.environment:checking '/home/asd/temp_git_repo/first-mega-project/install/single_robo_bringup/bin'
+[3.826s] Level 1:colcon.colcon_core.environment:checking '/home/asd/temp_git_repo/first-mega-project/install/single_robo_bringup/lib/pkgconfig/single_robo_bringup.pc'
+[3.827s] Level 1:colcon.colcon_core.environment:checking '/home/asd/temp_git_repo/first-mega-project/install/single_robo_bringup/lib/python3.10/site-packages'
+[3.828s] Level 1:colcon.colcon_core.environment:checking '/home/asd/temp_git_repo/first-mega-project/install/single_robo_bringup/bin'
+[3.830s] INFO:colcon.colcon_core.shell:Creating package script '/home/asd/temp_git_repo/first-mega-project/install/single_robo_bringup/share/single_robo_bringup/package.ps1'
+[3.836s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/asd/temp_git_repo/first-mega-project/install/single_robo_bringup/share/single_robo_bringup/package.dsv'
+[3.839s] INFO:colcon.colcon_core.shell:Creating package script '/home/asd/temp_git_repo/first-mega-project/install/single_robo_bringup/share/single_robo_bringup/package.sh'
+[3.841s] INFO:colcon.colcon_core.shell:Creating package script '/home/asd/temp_git_repo/first-mega-project/install/single_robo_bringup/share/single_robo_bringup/package.bash'
+[3.843s] INFO:colcon.colcon_core.shell:Creating package script '/home/asd/temp_git_repo/first-mega-project/install/single_robo_bringup/share/single_robo_bringup/package.zsh'
+[3.845s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/asd/temp_git_repo/first-mega-project/install/single_robo_bringup/share/colcon-core/packages/single_robo_bringup)
+[3.847s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(single_robo_bringup)
+[3.848s] Level 1:colcon.colcon_core.environment:checking '/home/asd/temp_git_repo/first-mega-project/install/single_robo_bringup' for CMake module files
+[3.850s] Level 1:colcon.colcon_core.environment:checking '/home/asd/temp_git_repo/first-mega-project/install/single_robo_bringup' for CMake config files
+[3.851s] Level 1:colcon.colcon_core.shell:create_environment_hook('single_robo_bringup', 'cmake_prefix_path')
+[3.852s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asd/temp_git_repo/first-mega-project/install/single_robo_bringup/share/single_robo_bringup/hook/cmake_prefix_path.ps1'
+[3.855s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asd/temp_git_repo/first-mega-project/install/single_robo_bringup/share/single_robo_bringup/hook/cmake_prefix_path.dsv'
+[3.857s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asd/temp_git_repo/first-mega-project/install/single_robo_bringup/share/single_robo_bringup/hook/cmake_prefix_path.sh'
+[3.861s] Level 1:colcon.colcon_core.environment:checking '/home/asd/temp_git_repo/first-mega-project/install/single_robo_bringup/bin'
+[3.861s] Level 1:colcon.colcon_core.environment:checking '/home/asd/temp_git_repo/first-mega-project/install/single_robo_bringup/lib/pkgconfig/single_robo_bringup.pc'
+[3.863s] Level 1:colcon.colcon_core.environment:checking '/home/asd/temp_git_repo/first-mega-project/install/single_robo_bringup/lib/python3.10/site-packages'
+[3.864s] Level 1:colcon.colcon_core.environment:checking '/home/asd/temp_git_repo/first-mega-project/install/single_robo_bringup/bin'
+[3.865s] INFO:colcon.colcon_core.shell:Creating package script '/home/asd/temp_git_repo/first-mega-project/install/single_robo_bringup/share/single_robo_bringup/package.ps1'
+[3.867s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/asd/temp_git_repo/first-mega-project/install/single_robo_bringup/share/single_robo_bringup/package.dsv'
+[3.869s] INFO:colcon.colcon_core.shell:Creating package script '/home/asd/temp_git_repo/first-mega-project/install/single_robo_bringup/share/single_robo_bringup/package.sh'
+[3.870s] INFO:colcon.colcon_core.shell:Creating package script '/home/asd/temp_git_repo/first-mega-project/install/single_robo_bringup/share/single_robo_bringup/package.bash'
+[3.871s] INFO:colcon.colcon_core.shell:Creating package script '/home/asd/temp_git_repo/first-mega-project/install/single_robo_bringup/share/single_robo_bringup/package.zsh'
+[3.872s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/asd/temp_git_repo/first-mega-project/install/single_robo_bringup/share/colcon-core/packages/single_robo_bringup)
+[3.876s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(single_robo_discription)
+[3.880s] Level 1:colcon.colcon_core.environment:checking '/home/asd/temp_git_repo/first-mega-project/install/single_robo_discription' for CMake module files
+[3.883s] Level 1:colcon.colcon_core.environment:checking '/home/asd/temp_git_repo/first-mega-project/install/single_robo_discription' for CMake config files
+[3.885s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/asd/temp_git_repo/first-mega-project/build/single_robo_discription' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asd/temp_git_repo/first-mega-project/install/single_robo_odometry:/home/asd/ros2_ws_goat2/install/multi_robo_simulator:/home/asd/ros2_ws_goat2/install/swarm_interfaces:/home/asd/ros2_ws_goat2/install/my_robot_description2:/home/asd/ros2_ws_goat2/install/my_robot_bringup2:/home/asd/ros2_ws_goat2/install/goat_robo_discription:/home/asd/ros2_ws_goat2/install/micro_ros_server:/home/asd/ros2_ws_goat2/install/micro_ros_custom_interfaces:/home/asd/ros2_ws_goat2/install/Qr_action:/home/asd/ros2_ws4/install/esp_wifi:/home/asd/ros2_ws4/install/maping_odom:/home/asd/ros2_ws9/install/turtlebot3_simulations:/home/asd/ros2_ws9/install/turtlebot3_gazebo_goat:/home/asd/ros2_ws9/install/turtlebot3_fake_node:/home/asd/ros2_ws9/install/testbed_gazebo_goat:/home/asd/ros2_ws9/install/testbed_description_goat:/home/asd/ros2_ws9/install/my_goat_pkg:/home/asd/ros2_ws9/install/goat_interfaces:/home/asd/ros2_ws9/install/goat_gazebo:/home/asd/ros2_ws7/install/my_py_pkg_anscer:/home/asd/ros2_ws/install/turtlesim_catch_them_all:/home/asd/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/asd/temp_git_repo/first-mega-project/build/single_robo_discription
+[3.886s] Level 1:colcon.colcon_core.shell:create_environment_hook('single_robo_discription', 'cmake_prefix_path')
+[3.886s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asd/temp_git_repo/first-mega-project/install/single_robo_discription/share/single_robo_discription/hook/cmake_prefix_path.ps1'
+[3.888s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asd/temp_git_repo/first-mega-project/install/single_robo_discription/share/single_robo_discription/hook/cmake_prefix_path.dsv'
+[3.889s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asd/temp_git_repo/first-mega-project/install/single_robo_discription/share/single_robo_discription/hook/cmake_prefix_path.sh'
+[3.890s] Level 1:colcon.colcon_core.environment:checking '/home/asd/temp_git_repo/first-mega-project/install/single_robo_discription/bin'
+[3.890s] Level 1:colcon.colcon_core.environment:checking '/home/asd/temp_git_repo/first-mega-project/install/single_robo_discription/lib/pkgconfig/single_robo_discription.pc'
+[3.891s] Level 1:colcon.colcon_core.environment:checking '/home/asd/temp_git_repo/first-mega-project/install/single_robo_discription/lib/python3.10/site-packages'
+[3.892s] Level 1:colcon.colcon_core.environment:checking '/home/asd/temp_git_repo/first-mega-project/install/single_robo_discription/bin'
+[3.893s] INFO:colcon.colcon_core.shell:Creating package script '/home/asd/temp_git_repo/first-mega-project/install/single_robo_discription/share/single_robo_discription/package.ps1'
+[3.894s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/asd/temp_git_repo/first-mega-project/install/single_robo_discription/share/single_robo_discription/package.dsv'
+[3.896s] INFO:colcon.colcon_core.shell:Creating package script '/home/asd/temp_git_repo/first-mega-project/install/single_robo_discription/share/single_robo_discription/package.sh'
+[3.898s] INFO:colcon.colcon_core.shell:Creating package script '/home/asd/temp_git_repo/first-mega-project/install/single_robo_discription/share/single_robo_discription/package.bash'
+[3.902s] INFO:colcon.colcon_core.shell:Creating package script '/home/asd/temp_git_repo/first-mega-project/install/single_robo_discription/share/single_robo_discription/package.zsh'
+[3.905s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/asd/temp_git_repo/first-mega-project/install/single_robo_discription/share/colcon-core/packages/single_robo_discription)
+[3.908s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(single_robo_discription)
+[3.909s] Level 1:colcon.colcon_core.environment:checking '/home/asd/temp_git_repo/first-mega-project/install/single_robo_discription' for CMake module files
+[3.910s] Level 1:colcon.colcon_core.environment:checking '/home/asd/temp_git_repo/first-mega-project/install/single_robo_discription' for CMake config files
+[3.911s] Level 1:colcon.colcon_core.shell:create_environment_hook('single_robo_discription', 'cmake_prefix_path')
+[3.911s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asd/temp_git_repo/first-mega-project/install/single_robo_discription/share/single_robo_discription/hook/cmake_prefix_path.ps1'
+[3.913s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asd/temp_git_repo/first-mega-project/install/single_robo_discription/share/single_robo_discription/hook/cmake_prefix_path.dsv'
+[3.913s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asd/temp_git_repo/first-mega-project/install/single_robo_discription/share/single_robo_discription/hook/cmake_prefix_path.sh'
+[3.918s] Level 1:colcon.colcon_core.environment:checking '/home/asd/temp_git_repo/first-mega-project/install/single_robo_discription/bin'
+[3.919s] Level 1:colcon.colcon_core.environment:checking '/home/asd/temp_git_repo/first-mega-project/install/single_robo_discription/lib/pkgconfig/single_robo_discription.pc'
+[3.921s] Level 1:colcon.colcon_core.environment:checking '/home/asd/temp_git_repo/first-mega-project/install/single_robo_discription/lib/python3.10/site-packages'
+[3.922s] Level 1:colcon.colcon_core.environment:checking '/home/asd/temp_git_repo/first-mega-project/install/single_robo_discription/bin'
+[3.923s] INFO:colcon.colcon_core.shell:Creating package script '/home/asd/temp_git_repo/first-mega-project/install/single_robo_discription/share/single_robo_discription/package.ps1'
+[3.924s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/asd/temp_git_repo/first-mega-project/install/single_robo_discription/share/single_robo_discription/package.dsv'
+[3.926s] INFO:colcon.colcon_core.shell:Creating package script '/home/asd/temp_git_repo/first-mega-project/install/single_robo_discription/share/single_robo_discription/package.sh'
+[3.927s] INFO:colcon.colcon_core.shell:Creating package script '/home/asd/temp_git_repo/first-mega-project/install/single_robo_discription/share/single_robo_discription/package.bash'
+[3.928s] INFO:colcon.colcon_core.shell:Creating package script '/home/asd/temp_git_repo/first-mega-project/install/single_robo_discription/share/single_robo_discription/package.zsh'
+[3.929s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/asd/temp_git_repo/first-mega-project/install/single_robo_discription/share/colcon-core/packages/single_robo_discription)
+[4.868s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/asd/temp_git_repo/first-mega-project/src/single_robo_odometry': PYTHONPATH=/home/asd/temp_git_repo/first-mega-project/build/single_robo_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/asd/temp_git_repo/first-mega-project/install/single_robo_odometry/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/single_robo_odometry build --build-base /home/asd/temp_git_repo/first-mega-project/build/single_robo_odometry/build install --record /home/asd/temp_git_repo/first-mega-project/build/single_robo_odometry/install.log --single-version-externally-managed install_data
+[5.278s] Level 1:colcon.colcon_core.environment:checking '/home/asd/temp_git_repo/first-mega-project/install/single_robo_odometry' for CMake module files
+[5.279s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/asd/temp_git_repo/first-mega-project/src/single_robo_odometry' returned '0': PYTHONPATH=/home/asd/temp_git_repo/first-mega-project/build/single_robo_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/asd/temp_git_repo/first-mega-project/install/single_robo_odometry/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/single_robo_odometry build --build-base /home/asd/temp_git_repo/first-mega-project/build/single_robo_odometry/build install --record /home/asd/temp_git_repo/first-mega-project/build/single_robo_odometry/install.log --single-version-externally-managed install_data
+[5.280s] Level 1:colcon.colcon_core.environment:checking '/home/asd/temp_git_repo/first-mega-project/install/single_robo_odometry' for CMake config files
+[5.281s] Level 1:colcon.colcon_core.environment:checking '/home/asd/temp_git_repo/first-mega-project/install/single_robo_odometry/lib'
+[5.281s] Level 1:colcon.colcon_core.environment:checking '/home/asd/temp_git_repo/first-mega-project/install/single_robo_odometry/bin'
+[5.281s] Level 1:colcon.colcon_core.environment:checking '/home/asd/temp_git_repo/first-mega-project/install/single_robo_odometry/lib/pkgconfig/single_robo_odometry.pc'
+[5.281s] Level 1:colcon.colcon_core.environment:checking '/home/asd/temp_git_repo/first-mega-project/install/single_robo_odometry/lib/python3.10/site-packages'
+[5.281s] Level 1:colcon.colcon_core.shell:create_environment_hook('single_robo_odometry', 'pythonpath')
+[5.282s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asd/temp_git_repo/first-mega-project/install/single_robo_odometry/share/single_robo_odometry/hook/pythonpath.ps1'
+[5.283s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asd/temp_git_repo/first-mega-project/install/single_robo_odometry/share/single_robo_odometry/hook/pythonpath.dsv'
+[5.283s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asd/temp_git_repo/first-mega-project/install/single_robo_odometry/share/single_robo_odometry/hook/pythonpath.sh'
+[5.284s] Level 1:colcon.colcon_core.environment:checking '/home/asd/temp_git_repo/first-mega-project/install/single_robo_odometry/bin'
+[5.284s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(single_robo_odometry)
+[5.284s] INFO:colcon.colcon_core.shell:Creating package script '/home/asd/temp_git_repo/first-mega-project/install/single_robo_odometry/share/single_robo_odometry/package.ps1'
+[5.285s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/asd/temp_git_repo/first-mega-project/install/single_robo_odometry/share/single_robo_odometry/package.dsv'
+[5.285s] INFO:colcon.colcon_core.shell:Creating package script '/home/asd/temp_git_repo/first-mega-project/install/single_robo_odometry/share/single_robo_odometry/package.sh'
+[5.286s] INFO:colcon.colcon_core.shell:Creating package script '/home/asd/temp_git_repo/first-mega-project/install/single_robo_odometry/share/single_robo_odometry/package.bash'
+[5.286s] INFO:colcon.colcon_core.shell:Creating package script '/home/asd/temp_git_repo/first-mega-project/install/single_robo_odometry/share/single_robo_odometry/package.zsh'
+[5.287s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/asd/temp_git_repo/first-mega-project/install/single_robo_odometry/share/colcon-core/packages/single_robo_odometry)
+[5.287s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.288s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.288s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.288s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.296s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.296s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.296s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.318s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.319s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/asd/temp_git_repo/first-mega-project/install/local_setup.ps1'
+[5.320s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/asd/temp_git_repo/first-mega-project/install/_local_setup_util_ps1.py'
+[5.323s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/asd/temp_git_repo/first-mega-project/install/setup.ps1'
+[5.336s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/asd/temp_git_repo/first-mega-project/install/local_setup.sh'
+[5.338s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/asd/temp_git_repo/first-mega-project/install/_local_setup_util_sh.py'
+[5.341s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/asd/temp_git_repo/first-mega-project/install/setup.sh'
+[5.351s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/asd/temp_git_repo/first-mega-project/install/local_setup.bash'
+[5.354s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/asd/temp_git_repo/first-mega-project/install/setup.bash'
+[5.367s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/asd/temp_git_repo/first-mega-project/install/local_setup.zsh'
+[5.369s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/asd/temp_git_repo/first-mega-project/install/setup.zsh'

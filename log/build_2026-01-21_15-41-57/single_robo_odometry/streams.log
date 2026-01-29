@@ -1,0 +1,28 @@
+[2.704s] Invoking command in '/home/asd/temp_git_repo/first-mega-project/src/single_robo_odometry': PYTHONPATH=/home/asd/temp_git_repo/first-mega-project/build/single_robo_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/asd/temp_git_repo/first-mega-project/install/single_robo_odometry/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/single_robo_odometry build --build-base /home/asd/temp_git_repo/first-mega-project/build/single_robo_odometry/build install --record /home/asd/temp_git_repo/first-mega-project/build/single_robo_odometry/install.log --single-version-externally-managed install_data
+[3.616s] running egg_info
+[3.619s] writing ../../build/single_robo_odometry/single_robo_odometry.egg-info/PKG-INFO
+[3.620s] writing dependency_links to ../../build/single_robo_odometry/single_robo_odometry.egg-info/dependency_links.txt
+[3.620s] writing entry points to ../../build/single_robo_odometry/single_robo_odometry.egg-info/entry_points.txt
+[3.621s] writing requirements to ../../build/single_robo_odometry/single_robo_odometry.egg-info/requires.txt
+[3.621s] writing top-level names to ../../build/single_robo_odometry/single_robo_odometry.egg-info/top_level.txt
+[3.625s] reading manifest file '../../build/single_robo_odometry/single_robo_odometry.egg-info/SOURCES.txt'
+[3.629s] writing manifest file '../../build/single_robo_odometry/single_robo_odometry.egg-info/SOURCES.txt'
+[3.630s] running build
+[3.630s] running build_py
+[3.630s] copying single_robo_odometry/odom_tf_pub.py -> /home/asd/temp_git_repo/first-mega-project/build/single_robo_odometry/build/lib/single_robo_odometry
+[3.630s] copying single_robo_odometry/odometry_calculation.py -> /home/asd/temp_git_repo/first-mega-project/build/single_robo_odometry/build/lib/single_robo_odometry
+[3.631s] running install
+[3.632s] running install_lib
+[3.634s] copying /home/asd/temp_git_repo/first-mega-project/build/single_robo_odometry/build/lib/single_robo_odometry/odom_tf_pub.py -> /home/asd/temp_git_repo/first-mega-project/install/single_robo_odometry/lib/python3.10/site-packages/single_robo_odometry
+[3.634s] copying /home/asd/temp_git_repo/first-mega-project/build/single_robo_odometry/build/lib/single_robo_odometry/odometry_calculation.py -> /home/asd/temp_git_repo/first-mega-project/install/single_robo_odometry/lib/python3.10/site-packages/single_robo_odometry
+[3.636s] byte-compiling /home/asd/temp_git_repo/first-mega-project/install/single_robo_odometry/lib/python3.10/site-packages/single_robo_odometry/odom_tf_pub.py to odom_tf_pub.cpython-310.pyc
+[3.638s] byte-compiling /home/asd/temp_git_repo/first-mega-project/install/single_robo_odometry/lib/python3.10/site-packages/single_robo_odometry/odometry_calculation.py to odometry_calculation.cpython-310.pyc
+[3.642s] running install_data
+[3.642s] running install_egg_info
+[3.646s] removing '/home/asd/temp_git_repo/first-mega-project/install/single_robo_odometry/lib/python3.10/site-packages/single_robo_odometry-0.0.0-py3.10.egg-info' (and everything under it)
+[3.647s] Copying ../../build/single_robo_odometry/single_robo_odometry.egg-info to /home/asd/temp_git_repo/first-mega-project/install/single_robo_odometry/lib/python3.10/site-packages/single_robo_odometry-0.0.0-py3.10.egg-info
+[3.649s] running install_scripts
+[3.713s] Installing odom_tf_pub script to /home/asd/temp_git_repo/first-mega-project/install/single_robo_odometry/lib/single_robo_odometry
+[3.714s] Installing odometry_calculation script to /home/asd/temp_git_repo/first-mega-project/install/single_robo_odometry/lib/single_robo_odometry
+[3.715s] writing list of installed files to '/home/asd/temp_git_repo/first-mega-project/build/single_robo_odometry/install.log'
+[3.778s] Invoked command in '/home/asd/temp_git_repo/first-mega-project/src/single_robo_odometry' returned '0': PYTHONPATH=/home/asd/temp_git_repo/first-mega-project/build/single_robo_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/asd/temp_git_repo/first-mega-project/install/single_robo_odometry/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/single_robo_odometry build --build-base /home/asd/temp_git_repo/first-mega-project/build/single_robo_odometry/build install --record /home/asd/temp_git_repo/first-mega-project/build/single_robo_odometry/install.log --single-version-externally-managed install_data
