@@ -1,0 +1,69 @@
+[0.073s] Invoking command in '/home/asd/temp_git_repo/first-mega-project/build/bumperbot_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asd/ros2_ws_goat2/install/multi_robo_simulator:/home/asd/ros2_ws_goat2/install/swarm_interfaces:/home/asd/ros2_ws_goat2/install/my_robot_description2:/home/asd/ros2_ws_goat2/install/my_robot_bringup2:/home/asd/ros2_ws_goat2/install/goat_robo_discription:/home/asd/ros2_ws_goat2/install/micro_ros_server:/home/asd/ros2_ws_goat2/install/micro_ros_custom_interfaces:/home/asd/ros2_ws_goat2/install/Qr_action:/home/asd/ros2_ws4/install/esp_wifi:/home/asd/ros2_ws4/install/maping_odom:/home/asd/ros2_ws9/install/turtlebot3_simulations:/home/asd/ros2_ws9/install/turtlebot3_gazebo_goat:/home/asd/ros2_ws9/install/turtlebot3_fake_node:/home/asd/ros2_ws9/install/testbed_gazebo_goat:/home/asd/ros2_ws9/install/testbed_description_goat:/home/asd/ros2_ws9/install/my_goat_pkg:/home/asd/ros2_ws9/install/goat_interfaces:/home/asd/ros2_ws9/install/goat_gazebo:/home/asd/ros2_ws7/install/my_py_pkg_anscer:/home/asd/ros2_ws/install/turtlesim_catch_them_all:/home/asd/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/asd/temp_git_repo/first-mega-project/build/bumperbot_planning -- -j8 -l8
+[0.189s] [35m[1mConsolidate compiler generated dependencies of target a_star_planner[0m
+[0.189s] [35m[1mConsolidate compiler generated dependencies of target dijkstra_planner[0m
+[0.227s] [ 25%] [32mBuilding CXX object CMakeFiles/a_star_planner.dir/src/a_star_planner.cpp.o[0m
+[0.233s] [ 25%] Built target ament_cmake_python_copy_bumperbot_planning
+[0.239s] [ 50%] [32mBuilding CXX object CMakeFiles/dijkstra_planner.dir/src/dijkstra_planner.cpp.o[0m
+[0.994s] running egg_info
+[0.998s] writing bumperbot_planning.egg-info/PKG-INFO
+[0.998s] writing dependency_links to bumperbot_planning.egg-info/dependency_links.txt
+[0.998s] writing top-level names to bumperbot_planning.egg-info/top_level.txt
+[1.003s] reading manifest file 'bumperbot_planning.egg-info/SOURCES.txt'
+[1.003s] writing manifest file 'bumperbot_planning.egg-info/SOURCES.txt'
+[1.086s] [ 50%] Built target ament_cmake_python_build_bumperbot_planning_egg
+[9.755s] [ 75%] [32m[1mLinking CXX shared library liba_star_planner.so[0m
+[9.833s] [100%] [32m[1mLinking CXX shared library libdijkstra_planner.so[0m
+[10.522s] [100%] Built target a_star_planner
+[10.640s] [100%] Built target dijkstra_planner
+[10.660s] Invoked command in '/home/asd/temp_git_repo/first-mega-project/build/bumperbot_planning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asd/ros2_ws_goat2/install/multi_robo_simulator:/home/asd/ros2_ws_goat2/install/swarm_interfaces:/home/asd/ros2_ws_goat2/install/my_robot_description2:/home/asd/ros2_ws_goat2/install/my_robot_bringup2:/home/asd/ros2_ws_goat2/install/goat_robo_discription:/home/asd/ros2_ws_goat2/install/micro_ros_server:/home/asd/ros2_ws_goat2/install/micro_ros_custom_interfaces:/home/asd/ros2_ws_goat2/install/Qr_action:/home/asd/ros2_ws4/install/esp_wifi:/home/asd/ros2_ws4/install/maping_odom:/home/asd/ros2_ws9/install/turtlebot3_simulations:/home/asd/ros2_ws9/install/turtlebot3_gazebo_goat:/home/asd/ros2_ws9/install/turtlebot3_fake_node:/home/asd/ros2_ws9/install/testbed_gazebo_goat:/home/asd/ros2_ws9/install/testbed_description_goat:/home/asd/ros2_ws9/install/my_goat_pkg:/home/asd/ros2_ws9/install/goat_interfaces:/home/asd/ros2_ws9/install/goat_gazebo:/home/asd/ros2_ws7/install/my_py_pkg_anscer:/home/asd/ros2_ws/install/turtlesim_catch_them_all:/home/asd/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/asd/temp_git_repo/first-mega-project/build/bumperbot_planning -- -j8 -l8
+[10.663s] Invoking command in '/home/asd/temp_git_repo/first-mega-project/build/bumperbot_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asd/ros2_ws_goat2/install/multi_robo_simulator:/home/asd/ros2_ws_goat2/install/swarm_interfaces:/home/asd/ros2_ws_goat2/install/my_robot_description2:/home/asd/ros2_ws_goat2/install/my_robot_bringup2:/home/asd/ros2_ws_goat2/install/goat_robo_discription:/home/asd/ros2_ws_goat2/install/micro_ros_server:/home/asd/ros2_ws_goat2/install/micro_ros_custom_interfaces:/home/asd/ros2_ws_goat2/install/Qr_action:/home/asd/ros2_ws4/install/esp_wifi:/home/asd/ros2_ws4/install/maping_odom:/home/asd/ros2_ws9/install/turtlebot3_simulations:/home/asd/ros2_ws9/install/turtlebot3_gazebo_goat:/home/asd/ros2_ws9/install/turtlebot3_fake_node:/home/asd/ros2_ws9/install/testbed_gazebo_goat:/home/asd/ros2_ws9/install/testbed_description_goat:/home/asd/ros2_ws9/install/my_goat_pkg:/home/asd/ros2_ws9/install/goat_interfaces:/home/asd/ros2_ws9/install/goat_gazebo:/home/asd/ros2_ws7/install/my_py_pkg_anscer:/home/asd/ros2_ws/install/turtlesim_catch_them_all:/home/asd/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/asd/temp_git_repo/first-mega-project/build/bumperbot_planning
+[10.682s] -- Install configuration: ""
+[10.682s] -- Installing: /home/asd/temp_git_repo/first-mega-project/install/bumperbot_planning/share/bumperbot_planning/environment/pythonpath.sh
+[10.682s] -- Installing: /home/asd/temp_git_repo/first-mega-project/install/bumperbot_planning/share/bumperbot_planning/environment/pythonpath.dsv
+[10.682s] -- Installing: /home/asd/temp_git_repo/first-mega-project/install/bumperbot_planning/local/lib/python3.10/dist-packages/bumperbot_planning-0.0.0-py3.10.egg-info
+[10.682s] -- Installing: /home/asd/temp_git_repo/first-mega-project/install/bumperbot_planning/local/lib/python3.10/dist-packages/bumperbot_planning-0.0.0-py3.10.egg-info/top_level.txt
+[10.683s] -- Installing: /home/asd/temp_git_repo/first-mega-project/install/bumperbot_planning/local/lib/python3.10/dist-packages/bumperbot_planning-0.0.0-py3.10.egg-info/PKG-INFO
+[10.683s] -- Installing: /home/asd/temp_git_repo/first-mega-project/install/bumperbot_planning/local/lib/python3.10/dist-packages/bumperbot_planning-0.0.0-py3.10.egg-info/dependency_links.txt
+[10.683s] -- Installing: /home/asd/temp_git_repo/first-mega-project/install/bumperbot_planning/local/lib/python3.10/dist-packages/bumperbot_planning-0.0.0-py3.10.egg-info/SOURCES.txt
+[10.683s] -- Installing: /home/asd/temp_git_repo/first-mega-project/install/bumperbot_planning/local/lib/python3.10/dist-packages/bumperbot_planning
+[10.683s] -- Installing: /home/asd/temp_git_repo/first-mega-project/install/bumperbot_planning/local/lib/python3.10/dist-packages/bumperbot_planning/a_star_planner.py
+[10.683s] -- Installing: /home/asd/temp_git_repo/first-mega-project/install/bumperbot_planning/local/lib/python3.10/dist-packages/bumperbot_planning/__init__.py
+[10.683s] -- Installing: /home/asd/temp_git_repo/first-mega-project/install/bumperbot_planning/local/lib/python3.10/dist-packages/bumperbot_planning/dijkstra_planner.py
+[10.743s] Listing '/home/asd/temp_git_repo/first-mega-project/install/bumperbot_planning/local/lib/python3.10/dist-packages/bumperbot_planning'...
+[10.743s] Compiling '/home/asd/temp_git_repo/first-mega-project/install/bumperbot_planning/local/lib/python3.10/dist-packages/bumperbot_planning/__init__.py'...
+[10.743s] Compiling '/home/asd/temp_git_repo/first-mega-project/install/bumperbot_planning/local/lib/python3.10/dist-packages/bumperbot_planning/a_star_planner.py'...
+[10.743s] Compiling '/home/asd/temp_git_repo/first-mega-project/install/bumperbot_planning/local/lib/python3.10/dist-packages/bumperbot_planning/dijkstra_planner.py'...
+[10.750s] -- Installing: /home/asd/temp_git_repo/first-mega-project/install/bumperbot_planning/share/bumperbot_planning/global_planner_plugins.xml
+[10.751s] -- Installing: /home/asd/temp_git_repo/first-mega-project/install/bumperbot_planning/lib/libdijkstra_planner.so
+[10.753s] -- Set runtime path of "/home/asd/temp_git_repo/first-mega-project/install/bumperbot_planning/lib/libdijkstra_planner.so" to ""
+[10.753s] -- Installing: /home/asd/temp_git_repo/first-mega-project/install/bumperbot_planning/lib/liba_star_planner.so
+[10.755s] -- Set runtime path of "/home/asd/temp_git_repo/first-mega-project/install/bumperbot_planning/lib/liba_star_planner.so" to ""
+[10.756s] -- Installing: /home/asd/temp_git_repo/first-mega-project/install/bumperbot_planning/include/include
+[10.756s] -- Installing: /home/asd/temp_git_repo/first-mega-project/install/bumperbot_planning/include/include/bumperbot_planning
+[10.756s] -- Installing: /home/asd/temp_git_repo/first-mega-project/install/bumperbot_planning/include/include/bumperbot_planning/dijkstra_planner.hpp
+[10.756s] -- Installing: /home/asd/temp_git_repo/first-mega-project/install/bumperbot_planning/include/include/bumperbot_planning/a_star_planner.hpp
+[10.756s] -- Up-to-date: /home/asd/temp_git_repo/first-mega-project/install/bumperbot_planning/share/bumperbot_planning/global_planner_plugins.xml
+[10.757s] -- Installing: /home/asd/temp_git_repo/first-mega-project/install/bumperbot_planning/lib/bumperbot_planning/a_star_planner.py
+[10.757s] -- Installing: /home/asd/temp_git_repo/first-mega-project/install/bumperbot_planning/lib/bumperbot_planning/dijkstra_planner.py
+[10.757s] -- Installing: /home/asd/temp_git_repo/first-mega-project/install/bumperbot_planning/share/bumperbot_planning/environment/library_path.sh
+[10.757s] -- Installing: /home/asd/temp_git_repo/first-mega-project/install/bumperbot_planning/share/bumperbot_planning/environment/library_path.dsv
+[10.757s] -- Installing: /home/asd/temp_git_repo/first-mega-project/install/bumperbot_planning/share/ament_index/resource_index/package_run_dependencies/bumperbot_planning
+[10.757s] -- Installing: /home/asd/temp_git_repo/first-mega-project/install/bumperbot_planning/share/ament_index/resource_index/parent_prefix_path/bumperbot_planning
+[10.757s] -- Installing: /home/asd/temp_git_repo/first-mega-project/install/bumperbot_planning/share/bumperbot_planning/environment/ament_prefix_path.sh
+[10.758s] -- Installing: /home/asd/temp_git_repo/first-mega-project/install/bumperbot_planning/share/bumperbot_planning/environment/ament_prefix_path.dsv
+[10.758s] -- Installing: /home/asd/temp_git_repo/first-mega-project/install/bumperbot_planning/share/bumperbot_planning/environment/path.sh
+[10.758s] -- Installing: /home/asd/temp_git_repo/first-mega-project/install/bumperbot_planning/share/bumperbot_planning/environment/path.dsv
+[10.758s] -- Installing: /home/asd/temp_git_repo/first-mega-project/install/bumperbot_planning/share/bumperbot_planning/local_setup.bash
+[10.758s] -- Installing: /home/asd/temp_git_repo/first-mega-project/install/bumperbot_planning/share/bumperbot_planning/local_setup.sh
+[10.759s] -- Installing: /home/asd/temp_git_repo/first-mega-project/install/bumperbot_planning/share/bumperbot_planning/local_setup.zsh
+[10.759s] -- Installing: /home/asd/temp_git_repo/first-mega-project/install/bumperbot_planning/share/bumperbot_planning/local_setup.dsv
+[10.759s] -- Installing: /home/asd/temp_git_repo/first-mega-project/install/bumperbot_planning/share/bumperbot_planning/package.dsv
+[10.759s] -- Installing: /home/asd/temp_git_repo/first-mega-project/install/bumperbot_planning/share/ament_index/resource_index/packages/bumperbot_planning
+[10.760s] -- Installing: /home/asd/temp_git_repo/first-mega-project/install/bumperbot_planning/share/ament_index/resource_index/nav2_core__pluginlib__plugin/bumperbot_planning
+[10.760s] -- Installing: /home/asd/temp_git_repo/first-mega-project/install/bumperbot_planning/share/bumperbot_planning/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.761s] -- Installing: /home/asd/temp_git_repo/first-mega-project/install/bumperbot_planning/share/bumperbot_planning/cmake/ament_cmake_export_libraries-extras.cmake
+[10.761s] -- Installing: /home/asd/temp_git_repo/first-mega-project/install/bumperbot_planning/share/bumperbot_planning/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.761s] -- Installing: /home/asd/temp_git_repo/first-mega-project/install/bumperbot_planning/share/bumperbot_planning/cmake/bumperbot_planningConfig.cmake
+[10.762s] -- Installing: /home/asd/temp_git_repo/first-mega-project/install/bumperbot_planning/share/bumperbot_planning/cmake/bumperbot_planningConfig-version.cmake
+[10.762s] -- Installing: /home/asd/temp_git_repo/first-mega-project/install/bumperbot_planning/share/bumperbot_planning/package.xml
+[10.768s] Invoked command in '/home/asd/temp_git_repo/first-mega-project/build/bumperbot_planning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asd/ros2_ws_goat2/install/multi_robo_simulator:/home/asd/ros2_ws_goat2/install/swarm_interfaces:/home/asd/ros2_ws_goat2/install/my_robot_description2:/home/asd/ros2_ws_goat2/install/my_robot_bringup2:/home/asd/ros2_ws_goat2/install/goat_robo_discription:/home/asd/ros2_ws_goat2/install/micro_ros_server:/home/asd/ros2_ws_goat2/install/micro_ros_custom_interfaces:/home/asd/ros2_ws_goat2/install/Qr_action:/home/asd/ros2_ws4/install/esp_wifi:/home/asd/ros2_ws4/install/maping_odom:/home/asd/ros2_ws9/install/turtlebot3_simulations:/home/asd/ros2_ws9/install/turtlebot3_gazebo_goat:/home/asd/ros2_ws9/install/turtlebot3_fake_node:/home/asd/ros2_ws9/install/testbed_gazebo_goat:/home/asd/ros2_ws9/install/testbed_description_goat:/home/asd/ros2_ws9/install/my_goat_pkg:/home/asd/ros2_ws9/install/goat_interfaces:/home/asd/ros2_ws9/install/goat_gazebo:/home/asd/ros2_ws7/install/my_py_pkg_anscer:/home/asd/ros2_ws/install/turtlesim_catch_them_all:/home/asd/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/asd/temp_git_repo/first-mega-project/build/bumperbot_planning

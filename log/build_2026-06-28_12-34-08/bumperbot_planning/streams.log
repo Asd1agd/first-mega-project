@@ -1,0 +1,114 @@
+[0.066s] Invoking command in '/home/asd/temp_git_repo/first-mega-project/build/bumperbot_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asd/ros2_ws_goat2/install/multi_robo_simulator:/home/asd/ros2_ws_goat2/install/swarm_interfaces:/home/asd/ros2_ws_goat2/install/my_robot_description2:/home/asd/ros2_ws_goat2/install/my_robot_bringup2:/home/asd/ros2_ws_goat2/install/goat_robo_discription:/home/asd/ros2_ws_goat2/install/micro_ros_server:/home/asd/ros2_ws_goat2/install/micro_ros_custom_interfaces:/home/asd/ros2_ws_goat2/install/Qr_action:/home/asd/ros2_ws4/install/esp_wifi:/home/asd/ros2_ws4/install/maping_odom:/home/asd/ros2_ws9/install/turtlebot3_simulations:/home/asd/ros2_ws9/install/turtlebot3_gazebo_goat:/home/asd/ros2_ws9/install/turtlebot3_fake_node:/home/asd/ros2_ws9/install/testbed_gazebo_goat:/home/asd/ros2_ws9/install/testbed_description_goat:/home/asd/ros2_ws9/install/my_goat_pkg:/home/asd/ros2_ws9/install/goat_interfaces:/home/asd/ros2_ws9/install/goat_gazebo:/home/asd/ros2_ws7/install/my_py_pkg_anscer:/home/asd/ros2_ws/install/turtlesim_catch_them_all:/home/asd/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/asd/temp_git_repo/first-mega-project/src/bumperbot_planning -DCMAKE_INSTALL_PREFIX=/home/asd/temp_git_repo/first-mega-project/install/bumperbot_planning
+[0.246s] -- The C compiler identification is GNU 11.4.0
+[0.355s] -- The CXX compiler identification is GNU 11.4.0
+[0.375s] -- Detecting C compiler ABI info
+[0.480s] -- Detecting C compiler ABI info - done
+[0.488s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.488s] -- Detecting C compile features
+[0.489s] -- Detecting C compile features - done
+[0.496s] -- Detecting CXX compiler ABI info
+[0.622s] -- Detecting CXX compiler ABI info - done
+[0.633s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.633s] -- Detecting CXX compile features
+[0.634s] -- Detecting CXX compile features - done
+[0.654s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.918s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.186s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[1.369s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.397s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.429s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.476s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.536s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.705s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.724s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.942s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.998s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.067s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.113s] -- Looking for pthread.h
+[2.211s] -- Looking for pthread.h - found
+[2.211s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.314s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.317s] -- Found Threads: TRUE  
+[2.457s] -- Found rclcpp_action: 16.0.19 (/opt/ros/humble/share/rclcpp_action/cmake)
+[2.547s] -- Found rclpy: 3.3.21 (/opt/ros/humble/share/rclpy/cmake)
+[2.556s] -- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.608s] -- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)
+[2.770s] -- Found nav2_core: 1.1.20 (/opt/ros/humble/share/nav2_core/cmake)
+[3.141s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.141s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.031s] -- Configuring done
+[4.364s] -- Generating done
+[4.381s] -- Build files have been written to: /home/asd/temp_git_repo/first-mega-project/build/bumperbot_planning
+[4.403s] Invoked command in '/home/asd/temp_git_repo/first-mega-project/build/bumperbot_planning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asd/ros2_ws_goat2/install/multi_robo_simulator:/home/asd/ros2_ws_goat2/install/swarm_interfaces:/home/asd/ros2_ws_goat2/install/my_robot_description2:/home/asd/ros2_ws_goat2/install/my_robot_bringup2:/home/asd/ros2_ws_goat2/install/goat_robo_discription:/home/asd/ros2_ws_goat2/install/micro_ros_server:/home/asd/ros2_ws_goat2/install/micro_ros_custom_interfaces:/home/asd/ros2_ws_goat2/install/Qr_action:/home/asd/ros2_ws4/install/esp_wifi:/home/asd/ros2_ws4/install/maping_odom:/home/asd/ros2_ws9/install/turtlebot3_simulations:/home/asd/ros2_ws9/install/turtlebot3_gazebo_goat:/home/asd/ros2_ws9/install/turtlebot3_fake_node:/home/asd/ros2_ws9/install/testbed_gazebo_goat:/home/asd/ros2_ws9/install/testbed_description_goat:/home/asd/ros2_ws9/install/my_goat_pkg:/home/asd/ros2_ws9/install/goat_interfaces:/home/asd/ros2_ws9/install/goat_gazebo:/home/asd/ros2_ws7/install/my_py_pkg_anscer:/home/asd/ros2_ws/install/turtlesim_catch_them_all:/home/asd/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/asd/temp_git_repo/first-mega-project/src/bumperbot_planning -DCMAKE_INSTALL_PREFIX=/home/asd/temp_git_repo/first-mega-project/install/bumperbot_planning
+[4.405s] Invoking command in '/home/asd/temp_git_repo/first-mega-project/build/bumperbot_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asd/ros2_ws_goat2/install/multi_robo_simulator:/home/asd/ros2_ws_goat2/install/swarm_interfaces:/home/asd/ros2_ws_goat2/install/my_robot_description2:/home/asd/ros2_ws_goat2/install/my_robot_bringup2:/home/asd/ros2_ws_goat2/install/goat_robo_discription:/home/asd/ros2_ws_goat2/install/micro_ros_server:/home/asd/ros2_ws_goat2/install/micro_ros_custom_interfaces:/home/asd/ros2_ws_goat2/install/Qr_action:/home/asd/ros2_ws4/install/esp_wifi:/home/asd/ros2_ws4/install/maping_odom:/home/asd/ros2_ws9/install/turtlebot3_simulations:/home/asd/ros2_ws9/install/turtlebot3_gazebo_goat:/home/asd/ros2_ws9/install/turtlebot3_fake_node:/home/asd/ros2_ws9/install/testbed_gazebo_goat:/home/asd/ros2_ws9/install/testbed_description_goat:/home/asd/ros2_ws9/install/my_goat_pkg:/home/asd/ros2_ws9/install/goat_interfaces:/home/asd/ros2_ws9/install/goat_gazebo:/home/asd/ros2_ws7/install/my_py_pkg_anscer:/home/asd/ros2_ws/install/turtlesim_catch_them_all:/home/asd/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/asd/temp_git_repo/first-mega-project/build/bumperbot_planning -- -j8 -l8
+[4.537s] [ 25%] [32mBuilding CXX object CMakeFiles/dijkstra_planner.dir/src/dijkstra_planner.cpp.o[0m
+[4.537s] [ 50%] [32mBuilding CXX object CMakeFiles/a_star_planner.dir/src/a_star_planner.cpp.o[0m
+[4.552s] [ 50%] Built target ament_cmake_python_copy_bumperbot_planning
+[5.322s] running egg_info
+[5.323s] creating bumperbot_planning.egg-info
+[5.324s] writing bumperbot_planning.egg-info/PKG-INFO
+[5.324s] writing dependency_links to bumperbot_planning.egg-info/dependency_links.txt
+[5.324s] writing top-level names to bumperbot_planning.egg-info/top_level.txt
+[5.330s] writing manifest file 'bumperbot_planning.egg-info/SOURCES.txt'
+[5.336s] reading manifest file 'bumperbot_planning.egg-info/SOURCES.txt'
+[5.336s] writing manifest file 'bumperbot_planning.egg-info/SOURCES.txt'
+[5.427s] [ 50%] Built target ament_cmake_python_build_bumperbot_planning_egg
+[10.657s] In file included from [01m[K/home/asd/temp_git_repo/first-mega-project/src/bumperbot_planning/src/a_star_planner.cpp:3[m[K:
+[10.658s] [01m[K/home/asd/temp_git_repo/first-mega-project/src/bumperbot_planning/include/bumperbot_planning/a_star_planner.hpp:64:23:[m[K [01;31m[Kerror: [m[K‘[01m[Knav_msgs::msg::Path bumperbot_planning::AStarPlanner::createPlan(const PoseStamped&, const PoseStamped&, std::function<bool()>)[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+[10.658s]    64 |   nav_msgs::msg::Path [01;31m[KcreatePlan[m[K(
+[10.658s]       |                       [01;31m[K^~~~~~~~~~[m[K
+[11.164s] In file included from [01m[K/home/asd/temp_git_repo/first-mega-project/src/bumperbot_planning/src/dijkstra_planner.cpp:4[m[K:
+[11.165s] [01m[K/home/asd/temp_git_repo/first-mega-project/src/bumperbot_planning/include/bumperbot_planning/dijkstra_planner.hpp:63:23:[m[K [01;31m[Kerror: [m[K‘[01m[Knav_msgs::msg::Path bumperbot_planning::DijkstraPlanner::createPlan(const PoseStamped&, const PoseStamped&, std::function<bool()>)[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+[11.165s]    63 |   nav_msgs::msg::Path [01;31m[KcreatePlan[m[K(
+[11.165s]       |                       [01;31m[K^~~~~~~~~~[m[K
+[12.984s] In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:57[m[K,
+[12.985s]                  from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:55[m[K,
+[12.985s]                  from [01m[K/opt/ros/humble/include/class_loader/class_loader/multi_library_class_loader.hpp:52[m[K,
+[12.985s]                  from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp:38[m[K,
+[12.985s]                  from [01m[K/opt/ros/humble/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d_ros.hpp:54[m[K,
+[12.985s]                  from [01m[K/opt/ros/humble/include/nav2_core/global_planner.hpp:21[m[K,
+[12.985s]                  from [01m[K/home/asd/temp_git_repo/first-mega-project/src/bumperbot_planning/include/bumperbot_planning/a_star_planner.hpp:12[m[K,
+[12.986s]                  from [01m[K/home/asd/temp_git_repo/first-mega-project/src/bumperbot_planning/src/a_star_planner.cpp:3[m[K:
+[12.986s] /opt/ros/humble/include/class_loader/class_loader/meta_object.hpp: In instantiation of ‘[01m[KB* class_loader::impl::MetaObject<C, B>::create() const [with C = bumperbot_planning::AStarPlanner; B = nav2_core::GlobalPlanner][m[K’:
+[12.986s] [01m[K/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp:216:7:[m[K   required from here
+[12.986s] [01m[K/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp:218:12:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[Kbumperbot_planning::AStarPlanner[m[K’
+[12.986s]   218 |     return [01;31m[Knew C[m[K;
+[12.986s]       |            [01;31m[K^~~~~[m[K
+[12.986s] In file included from [01m[K/home/asd/temp_git_repo/first-mega-project/src/bumperbot_planning/src/a_star_planner.cpp:3[m[K:
+[12.987s] [01m[K/home/asd/temp_git_repo/first-mega-project/src/bumperbot_planning/include/bumperbot_planning/a_star_planner.hpp:47:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[Kbumperbot_planning::AStarPlanner[m[K’:
+[12.987s]    47 | class [01;36m[KAStarPlanner[m[K : public nav2_core::GlobalPlanner
+[12.987s]       |       [01;36m[K^~~~~~~~~~~~[m[K
+[12.987s] In file included from [01m[K/home/asd/temp_git_repo/first-mega-project/src/bumperbot_planning/include/bumperbot_planning/a_star_planner.hpp:12[m[K,
+[12.987s]                  from [01m[K/home/asd/temp_git_repo/first-mega-project/src/bumperbot_planning/src/a_star_planner.cpp:3[m[K:
+[12.987s] [01m[K/opt/ros/humble/include/nav2_core/global_planner.hpp:76:31:[m[K [01;36m[Knote: [m[K    ‘[01m[Kvirtual nav_msgs::msg::Path nav2_core::GlobalPlanner::createPlan(const PoseStamped&, const PoseStamped&)[m[K’
+[12.988s]    76 |   virtual nav_msgs::msg::Path [01;36m[KcreatePlan[m[K(
+[12.988s]       |                               [01;36m[K^~~~~~~~~~[m[K
+[13.365s] gmake[2]: *** [CMakeFiles/a_star_planner.dir/build.make:76: CMakeFiles/a_star_planner.dir/src/a_star_planner.cpp.o] Error 1
+[13.366s] gmake[1]: *** [CMakeFiles/Makefile2:220: CMakeFiles/a_star_planner.dir/all] Error 2
+[13.366s] gmake[1]: *** Waiting for unfinished jobs....
+[13.549s] In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:57[m[K,
+[13.550s]                  from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:55[m[K,
+[13.550s]                  from [01m[K/opt/ros/humble/include/class_loader/class_loader/multi_library_class_loader.hpp:52[m[K,
+[13.550s]                  from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp:38[m[K,
+[13.550s]                  from [01m[K/opt/ros/humble/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d_ros.hpp:54[m[K,
+[13.550s]                  from [01m[K/opt/ros/humble/include/nav2_core/global_planner.hpp:21[m[K,
+[13.550s]                  from [01m[K/home/asd/temp_git_repo/first-mega-project/src/bumperbot_planning/include/bumperbot_planning/dijkstra_planner.hpp:12[m[K,
+[13.551s]                  from [01m[K/home/asd/temp_git_repo/first-mega-project/src/bumperbot_planning/src/dijkstra_planner.cpp:4[m[K:
+[13.551s] /opt/ros/humble/include/class_loader/class_loader/meta_object.hpp: In instantiation of ‘[01m[KB* class_loader::impl::MetaObject<C, B>::create() const [with C = bumperbot_planning::DijkstraPlanner; B = nav2_core::GlobalPlanner][m[K’:
+[13.551s] [01m[K/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp:216:7:[m[K   required from here
+[13.551s] [01m[K/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp:218:12:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[Kbumperbot_planning::DijkstraPlanner[m[K’
+[13.551s]   218 |     return [01;31m[Knew C[m[K;
+[13.551s]       |            [01;31m[K^~~~~[m[K
+[13.551s] In file included from [01m[K/home/asd/temp_git_repo/first-mega-project/src/bumperbot_planning/src/dijkstra_planner.cpp:4[m[K:
+[13.552s] [01m[K/home/asd/temp_git_repo/first-mega-project/src/bumperbot_planning/include/bumperbot_planning/dijkstra_planner.hpp:46:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[Kbumperbot_planning::DijkstraPlanner[m[K’:
+[13.552s]    46 | class [01;36m[KDijkstraPlanner[m[K : public nav2_core::GlobalPlanner
+[13.552s]       |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[13.552s] In file included from [01m[K/home/asd/temp_git_repo/first-mega-project/src/bumperbot_planning/include/bumperbot_planning/dijkstra_planner.hpp:12[m[K,
+[13.552s]                  from [01m[K/home/asd/temp_git_repo/first-mega-project/src/bumperbot_planning/src/dijkstra_planner.cpp:4[m[K:
+[13.552s] [01m[K/opt/ros/humble/include/nav2_core/global_planner.hpp:76:31:[m[K [01;36m[Knote: [m[K    ‘[01m[Kvirtual nav_msgs::msg::Path nav2_core::GlobalPlanner::createPlan(const PoseStamped&, const PoseStamped&)[m[K’
+[13.552s]    76 |   virtual nav_msgs::msg::Path [01;36m[KcreatePlan[m[K(
+[13.553s]       |                               [01;36m[K^~~~~~~~~~[m[K
+[13.901s] gmake[2]: *** [CMakeFiles/dijkstra_planner.dir/build.make:76: CMakeFiles/dijkstra_planner.dir/src/dijkstra_planner.cpp.o] Error 1
+[13.901s] gmake[1]: *** [CMakeFiles/Makefile2:194: CMakeFiles/dijkstra_planner.dir/all] Error 2
+[13.901s] gmake: *** [Makefile:146: all] Error 2
+[13.904s] Invoked command in '/home/asd/temp_git_repo/first-mega-project/build/bumperbot_planning' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asd/ros2_ws_goat2/install/multi_robo_simulator:/home/asd/ros2_ws_goat2/install/swarm_interfaces:/home/asd/ros2_ws_goat2/install/my_robot_description2:/home/asd/ros2_ws_goat2/install/my_robot_bringup2:/home/asd/ros2_ws_goat2/install/goat_robo_discription:/home/asd/ros2_ws_goat2/install/micro_ros_server:/home/asd/ros2_ws_goat2/install/micro_ros_custom_interfaces:/home/asd/ros2_ws_goat2/install/Qr_action:/home/asd/ros2_ws4/install/esp_wifi:/home/asd/ros2_ws4/install/maping_odom:/home/asd/ros2_ws9/install/turtlebot3_simulations:/home/asd/ros2_ws9/install/turtlebot3_gazebo_goat:/home/asd/ros2_ws9/install/turtlebot3_fake_node:/home/asd/ros2_ws9/install/testbed_gazebo_goat:/home/asd/ros2_ws9/install/testbed_description_goat:/home/asd/ros2_ws9/install/my_goat_pkg:/home/asd/ros2_ws9/install/goat_interfaces:/home/asd/ros2_ws9/install/goat_gazebo:/home/asd/ros2_ws7/install/my_py_pkg_anscer:/home/asd/ros2_ws/install/turtlesim_catch_them_all:/home/asd/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/asd/temp_git_repo/first-mega-project/build/bumperbot_planning -- -j8 -l8

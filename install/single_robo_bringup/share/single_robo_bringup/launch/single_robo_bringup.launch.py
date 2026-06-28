@@ -35,7 +35,7 @@ def generate_launch_description():
         ])
     )
 
-    # 2. Launch navigation and mapping
+    # 2. Launch mapping
     nav_map_launch = IncludeLaunchDescription(
         PythonLaunchDescriptionSource([
             PathJoinSubstitution([
@@ -46,7 +46,7 @@ def generate_launch_description():
         ])
     )
 
-    # 2. Launch navigation and mapping
+    # 3. Launch navigation
     nav2_stack_launch = IncludeLaunchDescription(
         PythonLaunchDescriptionSource([
             PathJoinSubstitution([
