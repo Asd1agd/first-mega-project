@@ -32,7 +32,7 @@ Follow these steps to clone, build, and launch the project in your local ROS2 en
 
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/Asd1agd/first-mega-project.git](https://github.com/Asd1agd/first-mega-project.git)
+git clone https://github.com/Asd1agd/first-mega-project.git
 cd first-mega-project
 
 ```
@@ -56,5 +56,5 @@ ros2 launch single_robo_bringup single_robo_bringup.launch.py
 
 ```
 
-```
+
 
