@@ -108,12 +108,12 @@ ros2 service call /amcl/reinitialize_global_localization std_srvs/srv/Empty {}
 
 ```bash
 # Shrink Global Costmap buffers
-ros2 param set /global_costmap/global_costmap inflation_layer.inflation_radius 0.30
-ros2 param set /global_costmap/global_costmap inflation_layer.cost_scaling_factor 10.0
+ros2 param set /global_costmap/global_costmap inflation_layer.inflation_radius 0.55
+ros2 param set /global_costmap/global_costmap inflation_layer.cost_scaling_factor 3.0
 
 # Shrink Local Costmap buffers
-ros2 param set /local_costmap/local_costmap inflation_layer.inflation_radius 0.30
-ros2 param set /local_costmap/local_costmap inflation_layer.cost_scaling_factor 10.0
+ros2 param set /local_costmap/local_costmap inflation_layer.inflation_radius 0.55
+ros2 param set /local_costmap/local_costmap inflation_layer.cost_scaling_factor 3.0
 
 # Force-refresh costmaps to instantly apply the new thin boundaries
 ros2 service call /global_costmap/clear_entirely_global_costmap nav2_msgs/srv/ClearEntireCostmap {}
