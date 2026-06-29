@@ -32,7 +32,7 @@ Follow these steps to clone, build, and launch the project in your local ROS2 en
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/Asd1agd/first-mega-project.git
+git clone [https://github.com/Asd1agd/first-mega-project.git](https://github.com/Asd1agd/first-mega-project.git)
 cd first-mega-project
 
 ```
@@ -56,5 +56,67 @@ ros2 launch single_robo_bringup single_robo_bringup.launch.py
 
 ```
 
+---
 
+## 🎛️ Runtime Command Cheat Sheet
 
+Use these `ros2 param` and `ros2 service` commands to dynamically interact with and tune your navigation stack at runtime.
+
+### 🧭 Global Planner Plugins
+
+```bash
+# Set standard Navfn Planner
+ros2 param set /planner_server GridBased.plugin "nav2_navfn_planner::NavfnPlanner"
+
+# Set custom Dijkstra Planner
+ros2 param set /planner_server GridBased_DJ.plugin "bumperbot_planning::DijkstraPlanner"
+
+# Set custom A* Planner
+ros2 param set /planner_server GridBasedFast.plugin "bumperbot_planning::AStarPlanner"
+
+```
+
+### 🏎️ Local Controller Plugins
+
+```bash
+# Switch to classic Pure Pursuit
+ros2 param set /controller_server FollowPath.plugin "nav2_pure_pursuit_controller::PurePursuitController"
+
+# Switch to Model Predictive Path Integral (MPPI)
+ros2 param set /controller_server FollowPath.plugin "nav2_mppi_controller::MPPIController"
+
+# ALTERNATIVE: Turn Regulated Pure Pursuit into Vanilla Pure Pursuit (Highly Recommended for dynamic switching)
+ros2 param set /controller_server FollowPath.use_regulated_linear_velocity_scaling False
+ros2 param set /controller_server FollowPath.use_cost_regulated_linear_velocity_scaling False
+ros2 param set /controller_server FollowPath.use_collision_detection False
+
+```
+
+### 🕵️‍♂️ Kidnapped Robot Recovery (AMCL)
+
+```bash
+# Enable AMCL automatic random particle generation when lost
+ros2 param set /amcl recovery_alpha_slow 0.001
+ros2 param set /amcl recovery_alpha_fast 0.1
+
+# INSTANT RESCUE: Explode particles globally across the map immediately
+ros2 service call /amcl/reinitialize_global_localization std_srvs/srv/Empty {}
+
+```
+
+### 🪟 Squeezing Through Narrow Paths (Inflation & Clearing)
+
+```bash
+# Shrink Global Costmap buffers
+ros2 param set /global_costmap/global_costmap inflation_layer.inflation_radius 0.30
+ros2 param set /global_costmap/global_costmap inflation_layer.cost_scaling_factor 10.0
+
+# Shrink Local Costmap buffers
+ros2 param set /local_costmap/local_costmap inflation_layer.inflation_radius 0.30
+ros2 param set /local_costmap/local_costmap inflation_layer.cost_scaling_factor 10.0
+
+# Force-refresh costmaps to instantly apply the new thin boundaries
+ros2 service call /global_costmap/clear_entirely_global_costmap nav2_msgs/srv/ClearEntireCostmap {}
+ros2 service call /local_costmap/clear_entirely_local_costmap nav2_msgs/srv/ClearEntireCostmap {}
+
+```
