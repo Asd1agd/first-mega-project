@@ -43,16 +43,8 @@
                 <sphere radius="${wheel_radius}" />
             </geometry>
             <origin xyz="0 0 0" rpy="0 0 0" />
-            <surface>
-                <friction>
-                    <ode>
-                        <mu>8.0</mu>
-                        <mu2>8.0</mu2>
-                    </ode>
-                </friction>
-            </surface>
         </collision>
-        <xacro:cylinder_inertia m="8.0" r="${wheel_radius}" l="${wheel_length}"
+        <xacro:cylinder_inertia m="1.5" r="${wheel_radius}" l="${wheel_length}"
                                    o_xyz="0 0 0" o_rpy="${pi / 2.0} 0 0" />
     </link>
 
@@ -70,16 +62,8 @@
                 <sphere radius="${wheel_radius}" />
             </geometry>
             <origin xyz="0 0 0" rpy="0 0 0" />
-            <surface>
-                <friction>
-                    <ode>
-                        <mu>8.0</mu>
-                        <mu2>8.0</mu2>
-                    </ode>
-                </friction>
-            </surface>
         </collision>
-        <xacro:cylinder_inertia m="8.0" r="${wheel_radius}" l="${wheel_length}"
+        <xacro:cylinder_inertia m="1.5" r="${wheel_radius}" l="${wheel_length}"
                                    o_xyz="0 0 0" o_rpy="${pi / 2.0} 0 0" />
     </link>
 
@@ -98,7 +82,7 @@
             </geometry>
             <origin xyz="0 0 0" rpy="0 0 0" />
         </collision>
-        <xacro:sphere_inertia m="2.0" r="${wheel_radius / 2.0}"
+        <xacro:sphere_inertia m="0.2" r="${wheel_radius / 2.0}"
                              o_xyz="0 0 0" o_rpy="0 0 0" />
     </link>
 
@@ -112,13 +96,7 @@
             <origin xyz="0 0 0" rpy="0 0 1.5708" />
             <material name="grey" />
         </visual>
-        <collision>
-            <geometry>
-                <cylinder radius="${wheel_radius / 2.0}" length="${wheel_radius / 2.0}" />
-            </geometry>
-            <origin xyz="0 0 0" rpy="0 0 0" />
-        </collision>
-       <xacro:sphere_inertia m="2.0" r="${wheel_radius / 2.0}"
+       <xacro:sphere_inertia m="0.2" r="${wheel_radius / 2.0}"
                              o_xyz="0 0 0" o_rpy="0 0 0" />
     </link>
     
@@ -181,7 +159,7 @@
             </geometry>
             <origin xyz="0 0 0" rpy="0 0 0" />
         </collision>
-       <xacro:sphere_inertia m="2.0" r="${wheel_radius / 2.0}"
+       <xacro:sphere_inertia m="0.2" r="${wheel_radius / 2.0}"
                              o_xyz="0 0 0" o_rpy="0 0 0" />
     </link>
 
@@ -195,13 +173,7 @@
             <origin xyz="0 0 0" rpy="0 0 1.5708" />
             <material name="grey" />
         </visual>
-        <collision>
-            <geometry>
-                <cylinder radius="${wheel_radius / 2.0}" length="${wheel_radius / 2.0}" />
-            </geometry>
-            <origin xyz="0 0 0" rpy="0 0 0" />
-        </collision>
-        <xacro:sphere_inertia m="2.0" r="${wheel_radius / 2.0}"
+        <xacro:sphere_inertia m="0.2" r="${wheel_radius / 2.0}"
                              o_xyz="0 0 0" o_rpy="0 0 0" />
     </link>
 

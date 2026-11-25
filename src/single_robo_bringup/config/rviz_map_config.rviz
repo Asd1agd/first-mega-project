@@ -568,6 +568,15 @@ Visualization Manager:
       Name: Realsense
     - Class: rviz_default_plugins/MarkerArray
       Enabled: true
+      Name: MPPI target, reference arc and selected trajectory
+      Topic:
+        Value: /my_custom_mppi/navigation_markers
+        Depth: 1
+        Reliability Policy: Reliable
+        Durability Policy: Volatile
+      Value: true
+    - Class: rviz_default_plugins/MarkerArray
+      Enabled: true
       Name: MarkerArray
       Namespaces:
         {}

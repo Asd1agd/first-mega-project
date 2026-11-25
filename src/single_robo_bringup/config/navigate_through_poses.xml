@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root main_tree_to_execute="NavigateThroughPoses">
+  <BehaviorTree ID="NavigateThroughPoses">
+    <RecoveryNode number_of_retries="1">
+      <PipelineSequence>
+        <RateController hz="1.0">
+          <ReactiveSequence>
+            <RemovePassedGoals input_goals="{goals}" output_goals="{goals}" radius="0.7"/>
+            <ComputePathThroughPoses goals="{goals}" planner_id="GridBased" path="{path}"/>
+          </ReactiveSequence>
+        </RateController>
+        <FollowPath controller_id="MyCustomMPPI" path="{path}"/>
+      </PipelineSequence>
+      <Sequence>
+        <BackUp backup_dist="0.5" backup_speed="0.15"/>
+        <Wait wait_duration="5"/>
+        <Spin spin_dist="1.57"/>
+      </Sequence>
+    </RecoveryNode>
+  </BehaviorTree>
+</root>

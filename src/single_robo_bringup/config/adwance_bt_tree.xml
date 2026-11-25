@@ -10,7 +10,7 @@
         </RateController>
         <!-- <FollowPath controller_id="CustomFollowPath"
                     path="{path}"/> -->
-        <FollowPath controller_id="MPPI"
+        <FollowPath controller_id="MyCustomMPPI"
                     path="{path}"/>
         <!-- <FollowPath controller_id="FollowPath"
                     path="{path}"/> -->

@@ -3,16 +3,23 @@ import os
 from ament_index_python.packages import get_package_share_directory
 
 from launch import LaunchDescription
-from launch.actions import DeclareLaunchArgument
+from launch.actions import DeclareLaunchArgument, TimerAction
 from launch.substitutions import LaunchConfiguration
 from launch_ros.actions import Node
-from launch.actions import TimerAction
+from launch_ros.descriptions import ParameterFile
 
 
 def generate_launch_description():
 
     use_sim_time = LaunchConfiguration("use_sim_time")
-    lifecycle_nodes = ["controller_server", "planner_server", "smoother_server", "bt_navigator", "behavior_server"]
+    lifecycle_nodes = [
+        "controller_server",
+        "planner_server",
+        "smoother_server",
+        "bt_navigator",
+        "behavior_server",
+        "waypoint_follower",
+    ]
     single_robo_bringup_pkg = get_package_share_directory("single_robo_bringup")
 
     use_sim_time_arg = DeclareLaunchArgument(
@@ -32,7 +39,7 @@ def generate_launch_description():
             {"use_sim_time": use_sim_time}
         ],
     )
-    
+
     nav2_planner_server = Node(
         package="nav2_planner",
         executable="planner_server",
@@ -67,10 +74,13 @@ def generate_launch_description():
         name="bt_navigator",
         output="screen",
         parameters=[
-            os.path.join(
-                single_robo_bringup_pkg,
-                "config",
-                "bt_navigator.yaml"),
+            ParameterFile(
+                os.path.join(
+                    single_robo_bringup_pkg,
+                    "config",
+                    "bt_navigator.yaml"),
+                allow_substs=True
+            ),
             {"use_sim_time": use_sim_time}
         ],
     )
@@ -89,6 +99,14 @@ def generate_launch_description():
         ],
     )
 
+    nav2_waypoint_follower = Node(
+        package="nav2_waypoint_follower",
+        executable="waypoint_follower",
+        name="waypoint_follower",
+        output="screen",
+        parameters=[{"use_sim_time": use_sim_time}],
+    )
+
     nav2_lifecycle_manager = Node(
         package="nav2_lifecycle_manager",
         executable="lifecycle_manager",
@@ -105,15 +123,18 @@ def generate_launch_description():
     ld.add_action(use_sim_time_arg)
     ld.add_action(TimerAction(
         period=4.0,
-        actions=[nav2_controller_server,
-        nav2_planner_server,
-        nav2_smoother_server,
-        nav2_bt_navigator,
-        nav2_behavior_server]
+        actions=[
+            nav2_controller_server,
+            nav2_planner_server,
+            nav2_smoother_server,
+            nav2_bt_navigator,
+            nav2_behavior_server,
+            nav2_waypoint_follower,
+        ]
     ))
     ld.add_action(TimerAction(
         period=6.0,
         actions=[nav2_lifecycle_manager]
     ))
-        
+
     return ld

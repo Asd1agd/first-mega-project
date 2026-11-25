@@ -1,0 +1,5 @@
+<library path="custom_mppi_controller">
+  <class type="my_custom_mppi::Controller" base_class_type="nav2_core::Controller">
+    <description>Native differential-drive MPPI controller with parallel CPU rollouts.</description>
+  </class>
+</library>
