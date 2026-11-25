@@ -83,7 +83,7 @@ controller_server:
     MyCustomMPPI:
       plugin: "my_custom_mppi::Controller"
       dt: 0.05
-      samples: 5000
+      samples: 2000
       horizon: 50
       near_goal_distance: 3.0
       near_goal_horizon: 15
